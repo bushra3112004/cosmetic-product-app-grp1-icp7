@@ -4,6 +4,7 @@ import nailPaints from "./about-image-2.jpg"
 import fruit from "./fruit.png"
 import floral from "./floral.png"
 import ocean from "./ocean.png"
+import { theme } from "../../configData"
 
 function About() {
   return (
@@ -18,21 +19,21 @@ function About() {
                 </div>
                 <div className="cosmetic-types-data-2">
                     <div className="cosmetic-types-data-2-text">
-                        <h1>NATURAL ORGANIC COSMETICS PROMOTES REJUVENATION</h1>
-                        <p>Bleak cod cutthroat eel sargassum fish panga sucker beardfish lionfish batfish eulachon Raccoon butterfly fish tetra. Pejerrey combtooth blenny Sundaland Noodlefish pipefish zebra shark beaked salmon hillstream loach New Zealand smelt salmon false moray pelican eel stoneroller minnow.</p>
+                        <h1 style={{color: theme.Heading}}>NATURAL ORGANIC COSMETICS PROMOTES REJUVENATION</h1>
+                        <p style={{color: theme.description}}>Bleak cod cutthroat eel sargassum fish panga sucker beardfish lionfish batfish eulachon Raccoon butterfly fish tetra. Pejerrey combtooth blenny Sundaland Noodlefish pipefish zebra shark beaked salmon hillstream loach New Zealand smelt salmon false moray pelican eel stoneroller minnow.</p>
                     </div>
                     <div className="types-images">
                         <div>
                             <img src={fruit} className="type-img"/>
-                            <p className="img-text">Fresh Types</p>
+                            <p className="img-text" style={{color: theme.Heading}}>Fresh Types</p>
                         </div>
                         <div>
                             <img src={floral} className="type-img"/>
-                            <p className="img-text">Floral Types</p>
+                            <p className="img-text" style={{color: theme.Heading}}>Floral Types</p>
                         </div>
                         <div>
                             <img src={ocean} className="type-img"/>
-                            <p className="img-text">Oceanic Types</p>
+                            <p className="img-text" style={{color: theme.Heading}}>Oceanic Types</p>
                         </div>
                     </div>
                 </div>
