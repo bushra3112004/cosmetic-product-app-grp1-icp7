@@ -6,7 +6,7 @@ import floral from "./floral.png"
 import ocean from "./ocean.png"
 import { theme } from "../../configData"
 import { cosmetic_sold,happy_client,countries,employee } from "./AboutData"
-import Cosmetic_vid from "./Cosmetic.mp4" 
+
 
 function About() {
   return (
