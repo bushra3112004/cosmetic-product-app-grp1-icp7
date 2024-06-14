@@ -1,0 +1,49 @@
+.banner-img{
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    margin: 20% auto;
+    display: flex;
+    
+
+}
+.pcardsContainers{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* justify-content: center;
+    align-items: center; */
+    width: 70%;
+    /* background-color: #f7f7f7;
+    border: 1px solid #ddd; */
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+ul{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    grid-row: 10px;
+}
+.list-2,li{
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+}
+.tag-btn{
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #ddd ;
+    margin: 10px;
+    font-size: 18px;
+    transition: .7s;
+}
+.tag-btn:hover{
+    background-color: rgb(245, 212, 168);
+}
+.categories-div{
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+}
