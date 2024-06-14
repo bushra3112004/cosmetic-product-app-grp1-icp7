@@ -5,6 +5,8 @@ import fruit from "./fruit.png"
 import floral from "./floral.png"
 import ocean from "./ocean.png"
 import { theme } from "../../configData"
+import { cosmetic_sold,happy_client,countries,employee } from "./AboutData"
+import Cosmetic_vid from "./Cosmetic.mp4" 
 
 function About() {
   return (
@@ -45,8 +47,31 @@ function About() {
                 </div>
             </div>
             <div className="section3">
-                <h1 style={{color: theme.Heading}}>Our Achievements</h1>
-                <p style={{color: theme.description}} className="section3-description">Black scabbardfish vimba, beaked salmon sandroller, firefish silver driftfish, golden dojo finback cat shark central uhylise</p>
+                <div className="section3-sub">
+                    <h1 style={{color: theme.Heading}}>Our Achievements</h1>
+                    <p style={{color: theme.description}} className="section3-description">Black scabbardfish vimba, beaked salmon sandroller, firefish silver driftfish, golden dojo finback cat shark central uhylise</p>
+                </div>
+                <div className="section3-sub2">
+                    <div className="section3-sub2-div" style={{backgroundColor:theme.secondaryColor}}>
+                        <h1 className="Datatext">{cosmetic_sold}</h1>
+                        <p style={{color: theme.description}}>COSMETICS SOLD</p>
+                    </div>
+                    <div className="section3-sub2-div" style={{backgroundColor:theme.secondaryColor}}>
+                        <h1 className="Datatext">{happy_client}</h1>
+                        <p style={{color: theme.description}}>HAPPY CLIENTS</p>
+                    </div>
+                    <div className="section3-sub2-div" style={{backgroundColor:theme.secondaryColor}}>
+                        <h1 className="Datatext">{countries}</h1>
+                        <p style={{color: theme.description}}>COUNTRIES</p>
+                    </div>
+                    <div className="section3-sub2-div" style={{backgroundColor:theme.secondaryColor}}>
+                        <h1 className="Datatext">{employee}</h1>
+                        <p style={{color: theme.description}}>EMPLOYEES</p>
+                    </div>
+                </div>
+            </div>
+            <div className="section4">
+                <iframe width="1000" height="480" src="https://www.youtube-nocookie.com/embed/NbVAgoJUb04?si=D3wTI4mTYFKqSw9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
     </>

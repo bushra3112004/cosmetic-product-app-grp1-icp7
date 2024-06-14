@@ -46,10 +46,35 @@
     margin-top: -40px;
     text-align: center;
 }
-.section3{
+.section3-sub{
     text-align: center;
 }
 .section3-description{
     width: 450px;
     margin-left: 520px;
+}
+.section3-sub2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+   
+}
+.section3-sub2-div{
+    width: 180px;
+    margin: 50px;
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 50px ;
+    border-bottom-right-radius: 50px;
+   text-align: center;
+   padding-top: 5px;
+}
+.Datatext{
+    margin-left: 20px;
+    margin-bottom: -6px;
+    margin-top: -1px;
+}
+.section4{
+  margin-left: 230px;
+  margin-top: 30px;
 }
