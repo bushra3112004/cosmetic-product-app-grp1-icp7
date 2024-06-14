@@ -1,3 +1,11 @@
+.section1{
+    position: relative;
+}
+.text-on-image{
+    position: absolute;
+    left: 5%;
+    bottom: 30%;
+}
 .title-bg{
     width: 1500px;
     background-repeat: no-repeat;
@@ -37,4 +45,11 @@
 .img-text{
     margin-top: -40px;
     text-align: center;
+}
+.section3{
+    text-align: center;
+}
+.section3-description{
+    width: 450px;
+    margin-left: 520px;
 }

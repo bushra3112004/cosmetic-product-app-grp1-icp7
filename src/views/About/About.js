@@ -10,12 +10,18 @@ function About() {
   return (
     <>
         <div>
-            <div>
-                <img src={bg1} className="title-bg" />
+            <div className="section1">
+                <div>
+                    <img src={bg1} className="title-bg" alt="background" />
+                </div>
+                <div className="text-on-image">
+                    <h3 style={{color: theme.primaryColor,fontStyle: "italic"}}>Organic Cosmetic</h3>
+                    <h1 style={{color: theme.Heading}}>About US</h1>
+                </div>
             </div>
             <div className="cosmetic-types-data">
                 <div className="cosmetic-types-data-1">
-                    <img src={nailPaints} />
+                    <img src={nailPaints} alt="nailpaint" className="cosmetic-types-data-1-img"/>
                 </div>
                 <div className="cosmetic-types-data-2">
                     <div className="cosmetic-types-data-2-text">
@@ -24,22 +30,23 @@ function About() {
                     </div>
                     <div className="types-images">
                         <div>
-                            <img src={fruit} className="type-img"/>
+                            <img src={fruit} className="type-img" alt="fresh type"/>
                             <p className="img-text" style={{color: theme.Heading}}>Fresh Types</p>
                         </div>
                         <div>
-                            <img src={floral} className="type-img"/>
+                            <img src={floral} className="type-img" alt="floral type"/>
                             <p className="img-text" style={{color: theme.Heading}}>Floral Types</p>
                         </div>
                         <div>
-                            <img src={ocean} className="type-img"/>
+                            <img src={ocean} className="type-img" alt="ocean type"/>
                             <p className="img-text" style={{color: theme.Heading}}>Oceanic Types</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div >
-                <h1>Our Achievements</h1>
+            <div className="section3">
+                <h1 style={{color: theme.Heading}}>Our Achievements</h1>
+                <p style={{color: theme.description}} className="section3-description">Black scabbardfish vimba, beaked salmon sandroller, firefish silver driftfish, golden dojo finback cat shark central uhylise</p>
             </div>
         </div>
     </>
