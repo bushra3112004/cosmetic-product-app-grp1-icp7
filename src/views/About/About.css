@@ -1,0 +1,40 @@
+.title-bg{
+    width: 1500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.cosmetic-types-data{
+    display: flex;
+    flex-direction: row;
+    margin: 150px;
+}
+.cosmetic-types-data-1{
+   border:  1px solid gray;
+   padding: 10px;
+   margin: 20px;
+}
+.cosmetic-types-data-2{
+    margin: 80px;
+}
+.cosmetic-types-data-2-text{
+    text-align: left;
+    width: 580px;
+}
+
+.types-images{
+    display: flex;
+    flex-direction: row;
+}
+.type-img{
+    height: 70px;
+    margin: 50px;
+    background-color: #f5e0d2;
+    border-radius: 50%;
+    padding: 2px;
+    
+}
+.img-text{
+    margin-top: -40px;
+    text-align: center;
+}
