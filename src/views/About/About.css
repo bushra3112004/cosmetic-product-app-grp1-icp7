@@ -99,3 +99,20 @@
   margin-left: 230px;
   margin-top: 30px;
 }
+.section5{
+    margin-top: 40px;
+}
+.section5 h1{
+    margin-left: 20%;
+}
+.section5-1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+.team-img-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+}
