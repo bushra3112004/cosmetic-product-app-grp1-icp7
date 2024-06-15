@@ -6,7 +6,7 @@ import "../Contact/Contact.css"
 function Contact() {
   return (
     <>
-      <h1 className="text-center mt-4 heading ">Contact</h1>
+      <h1 className="text-center mt-4 heading ">Contact Us</h1>
     <div className="container-1 rounded mx-auto">
         <div className="row">
             <div className="col-sm-6 col-md-11 col-lg-6  mx-auto">
