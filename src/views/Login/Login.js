@@ -34,10 +34,14 @@ function Login() {
             Login
           </button>
           <br />
-          <label>
+          <label className="chk-box">
             <input type="checkbox" name="remember" /> Remember me
           </label>
-          
+          <br></br>
+          <div className="last-container">
+            <button type="button" className="cancel-btn">Cancel</button>
+            <span class="psw">Forgot password?</span>
+          </div>
         </div>
       </div>
     </form>

@@ -6,7 +6,7 @@
 }
 .main-container{
     background-color:#EAAA85;
-    height: 500px;
+    height: 600px;
     margin: auto 400px;
     display: inline-block;
     
@@ -46,4 +46,19 @@
     border-radius: 5px;
     font-size: 20px;
 
+}
+.last-container{
+    background-color: rgb(174, 134, 141);
+    height: 80px;
+}
+.cancel-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(241, 60, 60);
+    margin: 20px;
+    
+}
+.chk-box{
+    font-size: 20px;
 }
