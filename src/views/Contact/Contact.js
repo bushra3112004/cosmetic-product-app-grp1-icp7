@@ -1,4 +1,5 @@
 import React from 'react'
+import toast, { Toaster } from 'react-hot-toast'
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../Contact/Contact.css"
 
@@ -26,8 +27,13 @@ function Contact() {
                         <textarea className="form-control border-dark input" id="exampleFormControlTextarea1" rows="3" placeholder="Message"
                            required></textarea>
                     </div>
-                    <button type="submit" className="button  d-block mx-auto m-5 fs-4 "
-                        onclick="submitDetails()">Send Message</button>
+                    <button type="button" className="button  d-block mx-auto m-5 fs-4 "
+                        onClick={
+                          ()=>{
+                            
+                            toast.success("Message Sent Successfully!")
+                          }
+                        }>Send Message</button>
                 </form>
             </div>
         </div>
@@ -55,6 +61,7 @@ function Contact() {
 
         </div>
     </div>
+    <Toaster />
     </>
   )
 }
