@@ -34,4 +34,4 @@ const router = createBrowserRouter([
 ]);
 
 root.render(<RouterProvider router={router} />);
-export default index
+//export default index
