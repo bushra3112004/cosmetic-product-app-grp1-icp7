@@ -14,11 +14,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
     {
         root.render(<Home />)
     }
-    else if (path === "/about")
+    else if (path === "/About")
         {
             root.render(<About />)
         }
-        else if (path === "/contact")
+        else if (path === "/Contact")
             {
                 root.render(<Contact />)
             }
