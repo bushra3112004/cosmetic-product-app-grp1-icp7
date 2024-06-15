@@ -17,8 +17,8 @@ function About() {
                     <img src={bg1} className="title-bg" alt="background" />
                 </div>
                 <div className="text-on-image">
-                    <h3 style={{color: theme.primaryColor,fontStyle: "italic"}}>Organic Cosmetic</h3>
-                    <h1 style={{color: theme.Heading}}>About US</h1>
+                    <h3 style={{color: theme.primaryColor}} className="subHeadingFont">Organic Cosmetic</h3>
+                    <h1 style={{color: theme.Heading}} className="headingFont">About US</h1>
                 </div>
             </div>
             <div className="cosmetic-types-data">
@@ -27,8 +27,8 @@ function About() {
                 </div>
                 <div className="cosmetic-types-data-2">
                     <div className="cosmetic-types-data-2-text">
-                        <h1 style={{color: theme.Heading}}>NATURAL ORGANIC COSMETICS PROMOTES REJUVENATION</h1>
-                        <p style={{color: theme.description}}>Bleak cod cutthroat eel sargassum fish panga sucker beardfish lionfish batfish eulachon Raccoon butterfly fish tetra. Pejerrey combtooth blenny Sundaland Noodlefish pipefish zebra shark beaked salmon hillstream loach New Zealand smelt salmon false moray pelican eel stoneroller minnow.</p>
+                        <h1 style={{color: theme.Heading}} className="headingFont">NATURAL ORGANIC COSMETICS PROMOTES REJUVENATION</h1>
+                        <p style={{color: theme.description}} className="descriptionFont">Bleak cod cutthroat eel sargassum fish panga sucker beardfish lionfish batfish eulachon Raccoon butterfly fish tetra. Pejerrey combtooth blenny Sundaland Noodlefish pipefish zebra shark beaked salmon hillstream loach New Zealand smelt salmon false moray pelican eel stoneroller minnow.</p>
                     </div>
                     <div className="types-images">
                         <div>
