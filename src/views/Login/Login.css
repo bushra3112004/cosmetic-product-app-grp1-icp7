@@ -1,13 +1,48 @@
-
+.heading{
+    font-size: 40px;
+    margin: 10px auto;
+    text-align: center;
+}
 .main-container{
-    background-color: rgb(210, 130, 25);
+    background-color:#EAAA85;
     height: 500px;
+    margin: auto 400px;
+    display: inline-block;
     
 }
 .profile-img{
     height: 200px;
     margin-bottom: 30px;
+    background-color: #F5E0D2;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+    
 }
+
 .container{
-    background-color: aqua;
+    background-color: #EAAA85;
+   
+    
+}
+.input-name{
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 10px;
+}
+.input-box{
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+.submit-btn{
+    margin: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(150, 223, 150);
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+
 }
