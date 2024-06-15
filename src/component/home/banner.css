@@ -1,0 +1,22 @@
+.banner-container{
+    position: relative;
+}
+.background-img{
+    width: 1500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.text-on-image{
+    position: absolute;
+    left: 5%;
+    bottom: 30%;
+}
+.btn-discover{
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #ddd ;
+    margin: 10px;
+    font-size: 18px;
+    transition: .7s;
+}

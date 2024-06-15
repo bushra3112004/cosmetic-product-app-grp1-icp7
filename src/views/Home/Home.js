@@ -1,9 +1,12 @@
 import React from 'react'
-
+import Banner from "./../../component/home/banner"
 function Home() {
-  return (
-    <div>Home page </div>
+  return (<>
+   
+    </>
   )
 }
 
 export default Home
+
+//<Banner/>
