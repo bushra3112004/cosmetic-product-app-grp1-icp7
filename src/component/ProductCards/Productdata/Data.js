@@ -8,7 +8,7 @@ import Smash7 from './img/7.avif'
 import Smash8 from './img/8.avif'
 const Productdata = [
     {
-        id: 10,
+        id: 'first',
         ProductImg: Smash,
         Title: "Smashbox Halo Healthy Glow Tinted Moisturizer Broad Spectrum SPF 25 - Light Neutral (40ml)",
         Price: 35.00,

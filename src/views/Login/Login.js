@@ -38,10 +38,12 @@ function Login() {
             <input type="checkbox" name="remember" /> Remember me
           </label>
           <br></br>
+         <b><hr></hr></b>
           <div className="last-container">
             <button type="button" className="cancel-btn">Cancel</button>
-            <span class="psw">Forgot password?</span>
+            <span className="psw" >Forgot <a href="#">password?</a></span>
           </div>
+          
         </div>
       </div>
     </form>

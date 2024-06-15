@@ -9,11 +9,8 @@
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-<<<<<<< HEAD
     "react-hot-toast": "^2.4.1",
-=======
     "react-router-dom": "^6.23.1",
->>>>>>> 9ba0cae539e873f0baef5c24e860b42956c2e7c3
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

@@ -8,7 +8,6 @@ import Login from "./views/Login/Login";
 import Product from "./views/Product/Product";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-
 const router = createBrowserRouter([
     {
         path: "/",
@@ -30,6 +29,10 @@ const router = createBrowserRouter([
         path: "/product",
         element: <Product />
     },
+    {
+        path: "/Home",
+        element: <Home />
+    }
 
 ]);
 
