@@ -3,14 +3,15 @@ import mainbanner from "./../../views/Home/homeImg/banner3-img.png";
 import { theme } from "./../../configData";
 const banner = ()=>{
     return(<>
-        <div className="banner-container">
-                <div>
-                    <img src={mainbanner} className="background-img" alt="background" />
+        <div className="banner-container d-flex">
+                
+                <div className="m-2 pt-5 p-2 ">
+                <h1 style={{color: theme.Heading}} className="p-3">Discover Your True Beauty </h1>
+                    <h5 style={{color: theme.description,fontStyle: "italic"}} className="p-2">Popularized through customer relationships with some of the world’s most recognizable faces, the “brow revolution” she ignited has become a landmark</h5> 
+                    <button className="btn-discover "> Discover</button>
                 </div>
-                <div className="text-on-image">
-                    <h5 style={{color: theme.description,fontStyle: "italic"}}>Popularized through customer relationships with some of the world’s most recognizable faces, the “brow revolution” she ignited has become a landmark</h5>
-                    <h1 style={{color: theme.Heading}}>Discover Your True Beauty </h1>
-                    <button className="btn-discover"> Discover</button>
+                <div>
+                    <img src={mainbanner} className="background-img  rounded float-end" alt="background" />
                 </div>
             </div>
       
