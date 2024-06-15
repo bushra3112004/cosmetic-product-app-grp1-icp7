@@ -1,0 +1,13 @@
+
+.main-container{
+    background-color: rgb(210, 130, 25);
+    height: 500px;
+    
+}
+.profile-img{
+    height: 200px;
+    margin-bottom: 30px;
+}
+.container{
+    background-color: aqua;
+}
