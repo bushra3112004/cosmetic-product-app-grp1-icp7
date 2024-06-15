@@ -10,6 +10,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 
 const router = createBrowserRouter([
+
+            {
+        path: "/",
+        element: <Home />
+    },
+
     {
         path: "/about",
         element: <About />
@@ -34,4 +40,7 @@ const router = createBrowserRouter([
 ]);
 
 root.render(<RouterProvider router={router} />);
-export default index
+
+
+
+

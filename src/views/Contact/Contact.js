@@ -51,7 +51,7 @@ function Contact() {
 
             <p className="text-center icon"><i className="fa-solid fa-envelope"></i></p>
             <h5 className="text-center">Email</h5>
-            <h6 className="text-center margin"><a href="mailto:suraj@roadtocode.org"
+            <h6 className="text-center margin"><a href="mailto:tdongare1@gmail.com"
                    className='spec' >123@gmail.com</a></h6>
                 
 
