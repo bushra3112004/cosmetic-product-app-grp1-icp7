@@ -2,6 +2,7 @@
     font-size: 40px;
     margin: 10px auto;
     text-align: center;
+    color: #232323;
 }
 .main-container{
     background-color:#EAAA85;
@@ -21,24 +22,24 @@
 }
 
 .container{
-    background-color: #EAAA85;
-   
-    
+    background-color:#EAAA85;
 }
+
 .input-name{
     font-size: 20px;
     margin: 10px;
     margin-top: 10px;
 }
 .input-box{
-    width: 400px;
+    width: 500px;
     height: 20px;
     padding: 10px;
-    margin: 5px;
+    margin: 6px;
+    font-size: 15px;
 }
 .submit-btn{
     margin: 50px;
-    width: 200px;
+    width: 450px;
     height: 40px;
     background-color: rgb(150, 223, 150);
     color: black;
