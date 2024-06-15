@@ -27,11 +27,6 @@ const router =createBrowserRouter([
    path:"/contact",
    element:<Contact/>
 
-}
-
-  
-])
-root.render(<RouterProvider router={router} /> )
 },
 {
    path:"/Product",
@@ -41,8 +36,7 @@ root.render(<RouterProvider router={router} /> )
    path:"/Product/Productview/:id",
    element:<Productview/>
 }
-
-  
+ 
 ])
 root.render(<RouterProvider router={router} /> )
 
