@@ -32,10 +32,6 @@ const router =createBrowserRouter([
    path:"/product/productview/:id",
    element:<Productview/>
 
-},
-{
-    path:"login",
-    element:<Login/>
 }
 
   
