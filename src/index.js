@@ -33,6 +33,10 @@ const router =createBrowserRouter([
    element:<Productview/>
 
 }
+{
+    path:"/login",
+    element:<Login/>
+}
 
   
 ])
