@@ -1,6 +1,6 @@
 import React from 'react'
 import toast, { Toaster } from 'react-hot-toast'
-import "/node_modules/bootstrap/dist/css/bootstrap.min.css"
+// import "/node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../Contact/Contact.css"
 
 function Contact() {
