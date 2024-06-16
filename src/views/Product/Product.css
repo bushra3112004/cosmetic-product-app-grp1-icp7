@@ -7,7 +7,7 @@
     padding: 0;
 }
 .main-div{
-    margin: 20% auto;
+    margin: 2% auto;
     display: flex;
     
 
@@ -19,6 +19,16 @@
     font-style: italic;
     font-size: 23px;
 
+}
+.Slogun{
+    font-family: "Playwrite FR Moderne", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+    color:  rgb(245, 212, 168);
+    text-align: center;
+    margin: 10% auto;
 }
 .pcardsContainers{
     display: flex;

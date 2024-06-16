@@ -3,6 +3,7 @@ import './Product.css'
 import banner from './banner.jpeg'
 import banner2 from './banner2.jpg'
 // import 'bootstrap/dist/css/bootstrap.min.css';
+import ButtonBox from "./../../component/ButtonBox/ButtonBox"
 import ProductCards from '../../component/ProductCards/ProductCards'
 import Productdata from './../../component/ProductCards/Productdata/Data'
 
@@ -11,6 +12,7 @@ function Product() {
     <>
 
       <img className='banner-img' width={'100%'} src={banner} />
+      <h1 className='Slogun'>-----"Glow Naturally, Shine Confidently"-----</h1>
 
       <div className='main-div'>
 
