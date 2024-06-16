@@ -1,0 +1,17 @@
+
+.cat-img{
+    height: 250px;
+    border: 1px black solid;
+    border-radius: 20px;
+
+}
+.cat-img:hover{
+    transform: scale(0.85);
+    transition: 0.5s;
+    
+   
+}
+.cat-name{
+    padding: 60px;
+   
+}
