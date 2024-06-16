@@ -1,0 +1,23 @@
+.team-card-container{
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+  
+}
+.team-name-text{
+    position: absolute;
+    left: 35%;
+    font-size: 20px;
+}
+.team-image{
+    height: 350px;
+    width: 250px;
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+}
+.team-position-text{
+    margin-left: 90px;
+    margin-top: 50px;
+}
