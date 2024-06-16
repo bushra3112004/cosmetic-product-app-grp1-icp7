@@ -17,7 +17,7 @@ function Navbar() {
          <Link to="/login" className='nav-item'>Log-in</Link>
        </div>
        <div className='icon-container'>
-<Link to='/Register'><button className='register-btn'>Register</button></Link>
+         <Link to='/signup' className='sign-up'>Sign-up</Link>
        </div>
     </div> 
     </>
