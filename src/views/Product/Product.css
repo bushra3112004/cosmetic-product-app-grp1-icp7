@@ -39,7 +39,8 @@
 }
 .input-feild{
     position: absolute;
-    right: 15%;
+    right: 10%;
+    bottom: 0;
     background-color: transparent;
     font-family: "Barlow", sans-serif;
     font-weight: 400;
@@ -60,7 +61,10 @@
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
-    padding: 5px 20px;
+    padding: 0px 20px;
+}
+.banner2{
+    height: 15%;
 }
 .pcardsContainers{
     display: flex;
