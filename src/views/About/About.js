@@ -15,12 +15,15 @@ import SP from "./img/SP.jpeg"
 import BP from "./img/BP.jpeg"
 import { Link } from "react-router-dom"
 import { Toaster,toast } from "react-hot-toast"
+import Navbar from "./../../component/Navbar/Navbar"
+import Footer from "./../../component/Footer/Footer"
 
 
 
 function About() {
   return (
     <>
+    <Navbar/>
         <div>
             <div className="section1">
                 <div>
@@ -126,15 +129,10 @@ function About() {
                             TeamImage={SP}
                             TeamPosition="Service Manager"
                         />
-                         <TeamCard 
-                            TeamName="Pranay Dandekar" 
-                            TeamImage={RJ}
-                            TeamPosition="Office Head"
-                        />
-                 
                 </div>
             </div>
         </div>
+    <Footer/>
     </>
   )
 }
