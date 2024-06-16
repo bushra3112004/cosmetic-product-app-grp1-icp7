@@ -12,9 +12,10 @@
 }
 .main-container{
     background-color:#fddbc4;
-    height: 700px;
+    height: 750px;
     width: 580px;
     margin: 10px 500px;
+    padding: 6px;
     display: block;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
@@ -30,8 +31,9 @@
 }
 
 .container{
-    background-color:#fce1cf;
+    background-color: #fce1cf;
     margin-top: 20px;
+
 }
 
 .input-name{
@@ -50,10 +52,9 @@
     margin: 48px;
     width: 450px;
     height: 40px;
+    border: 1px solid #ddd;
     background-color: rgb(150, 223, 150);
     color: black;
-    border-radius: 5px;
-    border: none;
     font-size: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
@@ -65,8 +66,7 @@
 .cancel-btn{
     width: 100px;
     height: 40px;
-    border-radius: 5px;
-    border: none;
+    border: 1px solid #ddd;
     background-color: rgb(241, 60, 60);
     margin: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -77,7 +77,7 @@
 }
 .psw{
 
-    font-size: 20px;
+    font-size: 19px;
     margin-left: 280px;
 }
 @media screen and (max-width:400px) {
@@ -86,6 +86,7 @@
     }
     .main-container{
         width: auto;
+        height: 650px;
         margin: 10px 10px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
     }
@@ -101,6 +102,7 @@
         width: 200px;
         margin: 40px;
         margin-left: 50px;
+        
     }
     .chk-box{
         font-size: 15px;
@@ -111,7 +113,7 @@
     
     }
     .psw{
-        font-size: 15px;
+        font-size: 16px;
         margin: 0px 40px;
         text-align: end;
         
