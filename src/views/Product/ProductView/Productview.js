@@ -28,7 +28,7 @@ function Productview() {
           <p>Reviews: {selectCard.Reviews}</p>
           <p>Category: {selectCard.Category}</p>
           <p>Brand: {selectCard.Brand}</p>
-          <p>Product Description: {selectCard.Description}</p>
+          <p className='discription'>Product Description: {selectCard.Description}</p>
 
         </div>
       </div>

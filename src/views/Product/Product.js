@@ -38,7 +38,7 @@ function Product() {
 
         <div className='categories-div'>
           <ul type='none'>
-            <li> <h1>Categories</h1></li>
+            <li> <h1 className='Sub-title'>Categories</h1></li>
             <li>
               <ul className='list-2' type='circle'>
                 <li>Makeup</li>
@@ -51,7 +51,7 @@ function Product() {
             </li>
           </ul>
           <hr />
-          <h1>Product Tag</h1>
+          <h1 className='Sub-title'>Product Tag</h1>
           <button className='tag-btn'>Cosmatics</button>
           <button className='tag-btn'>Facecaer</button>
           <button className='tag-btn'>Skincaer</button>
