@@ -37,18 +37,36 @@ function Productview() {
         <div className='Ingrediants-container'>
           <span className='Ingridiant-title'>Ingredients :-</span>
        <br/><br/><br/>
+       <p>{selectCard.Ingredients.Ingredient1}</p>
+       <p>{selectCard.Ingredients.Ingredient2}</p>
+       <p>{selectCard.Ingredients.Ingredient3}</p>
+       <p>{selectCard.Ingredients.Ingredient4}</p>
+       <p>{selectCard.Ingredients.Ingredient5}</p>
+       <p>{selectCard.Ingredients.Ingredient6}</p>
+       <p>{selectCard.Ingredients.Ingredient7}</p>
+       <p>{selectCard.Ingredients.Ingredient8}</p>
         </div>
         <div className='Uses-container'> 
           <span className='Uses-heading'>Uses :-</span>
           <br/><br/>
           <br/>
-          <p>{selectCard.Uses}</p>
+          <p>{selectCard.Use.Use1}</p>
+          <p>{selectCard.Use.Use2}</p>
+          <p>{selectCard.Use.Use3}</p>
+          <p>{selectCard.Use.Use4}</p>
+          <p>{selectCard.Use.Use5}</p>
+          <p>{selectCard.Use.Use6}</p>
+          <p>{selectCard.Use.Use7}</p>
         </div>
       </div>
       <div>
         <div><span className='Related-content-heading'>How To Use ?</span></div>
-        <br/><br/>
-        <p>{selectCard.HowToUse}</p>
+        <br/>
+        <div className='howtouse-containt'>
+        <p>{selectCard.HowToUse.HowToUse1}</p>
+        <p>{selectCard.HowToUse.HowToUse2}</p>
+        <p>{selectCard.HowToUse.HowToUse3}</p>
+        </div>
 
       </div>
       <span className='Related-content-heading'>Related Products</span>
