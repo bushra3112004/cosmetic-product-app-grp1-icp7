@@ -112,6 +112,9 @@
     flex-direction: row;
     margin-left: 20%;
 }
+.btn-div{
+    margin-top: 20px;
+}
 .team-img-div{
     display: flex;
     flex-direction: row;
