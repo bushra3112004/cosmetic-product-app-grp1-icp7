@@ -1,0 +1,56 @@
+.footer {
+    background-color: black;
+    height: 300px;
+    box-shadow: 0 0 10 10 gray;
+
+
+ }
+
+ .footer-desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+
+ }
+ .img {
+    height: 220px;
+    width: 280px;
+    margin: 20px;
+ }
+ .quick-links {
+    height: 180px;
+    width: 150px;
+    color: white;
+    margin: 10px;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+ }
+
+ .useful-links {
+    height: 180px;
+    width: 150px;
+    color: white;
+    margin: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: tomato;
+ }
+
+ .contact {
+    height: 180px;
+    width: 200px;
+    color: white;
+    margin: 10px;
+    padding: 20px 20px;
+    text-align: center;
+ }
+ .footer-icon {
+    height: 25px;
+    margin: 10px;
+ }
+
+ .footer-name {
+    color: white;
+ }
