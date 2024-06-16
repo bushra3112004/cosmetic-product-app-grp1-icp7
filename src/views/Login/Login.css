@@ -13,7 +13,8 @@
 .main-container{
     background-color:#fddbc4;
     height: 700px;
-    margin: auto 550px;
+    width: 580px;
+    margin: 10px 330px;
     display: block;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
@@ -46,7 +47,7 @@
     font-size: 15px;
 }
 .submit-btn{
-    margin: 50px;
+    margin: 48px;
     width: 450px;
     height: 40px;
     background-color: rgb(150, 223, 150);
@@ -59,7 +60,7 @@
 
 }
 .last-container{
-    height: 60px;
+    height: 0px;
 }
 .cancel-btn{
     width: 100px;
@@ -85,27 +86,32 @@
     }
     .main-container{
         width: auto;
-        margin: auto 10px;
+        margin: 10px 10px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
     }
     .input-name{
-        font-size: 18px;
+        font-size: 15px;
     }
     .input-box{
-       width: 320px; 
+       width: 220px; 
+       height: 30px;
 
     }
     .submit-btn{
-        width: 250px;
+        width: 160px;
+        margin: 30px;
     }
-    
+    .chk-box{
+        font-size: 15px;
+    }
     .cancel-btn{
-        width: 100px;
+        width: 90px;
         height: 30px;
+    
     }
     .psw{
-        font-size: 15px;
-        margin: 0px 50px;
+        font-size: 10px;
+        margin: 0px 25px;
         text-align: end;
     }
     
