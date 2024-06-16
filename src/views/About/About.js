@@ -10,7 +10,7 @@ import TeamCard from "../../component/TeamCard/TeamCard"
 import ButtonBox from "./../../component/ButtonBox/ButtonBox"
 import RJ from "./RJ.jpeg"
 import TD from "./TD.jpeg"
-
+import { Link } from "react-router-dom"
 
 
 
@@ -86,9 +86,11 @@ function About() {
                     Our team is the heart and soul of our company, bringing together a diverse group of dedicated professionals who are passionate about natural organic cosmetics. Each member of our team plays a vital role in our mission to create high-quality, sustainable products that enhance beauty and well-being.
                     </div>
                     <div className="btn-div">
+                    <Link to="/about" >
                         <ButtonBox
                             text="View More"
                         />
+                    </Link>
                     </div>
                 </div>
                 <div className="team-img-div">
