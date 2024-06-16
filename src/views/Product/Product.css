@@ -30,6 +30,38 @@
     text-align: center;
     margin: 10% auto;
 }
+.search-container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    position: relative;
+}
+.input-feild{
+    position: absolute;
+    right: 15%;
+    background-color: transparent;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+
+}
+.input-feild:hover{
+    border: 2px solid #aaa;
+}
+.reults-heading{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding: 5px 20px;
+}
 .pcardsContainers{
     display: flex;
     flex-wrap: wrap;
@@ -48,14 +80,23 @@ ul{
     margin: 0;
     grid-row: 10px;
 }
-.list-2,li{
-    margin-left: 30px;
-    margin-bottom: 20px;
+.list-2{
+    margin-left: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: "Barlow", sans-serif;
     font-weight: 400;
     font-style: normal;
+    cursor: pointer;
+    transition: .3s;
 
 }
+.list-2:hover{
+    color: rgb(244, 200, 143);
+    text-decoration:underline;
+    margin-left: 32%;
+}
+
 .tag-btn{
     background-color: transparent;
     padding: 5px 10px;
