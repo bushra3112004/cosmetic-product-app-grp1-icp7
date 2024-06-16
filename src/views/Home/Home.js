@@ -6,6 +6,7 @@ import Banner from "./../../component/home/banner"
 import CategoryCard from '../../component/home/categoryCard';
 import { theme } from "./../../configData";
 import Button from '../../component/ButtonBox/ButtonBox';
+import Feature from "./../../component/home/feature"
 import ProductLayout from "./../../component/home/productLayout";
 import Navbar from "./../../component/Navbar/Navbar"
 import Footer from '../../component/Footer/Footer'
@@ -28,7 +29,7 @@ function Home() {
     <span className='fs-1 headingFont'style={{color:theme.primaryColor}}>BEST SELLERS PRODUCTS</span> <br/>
     <span className='fs-3 subHeadingFont'style={{color:theme.description,fontStyle: "italic"}} >The stylish and organized cosmetic products</span>
   </div>
-
+  <Feature/>
   <ProductLayout/>
   <Footer/>
     </>

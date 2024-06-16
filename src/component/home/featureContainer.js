@@ -5,7 +5,7 @@ import "./featureContainer.css";
 const featureContainer= ({featureImg , FeatureTitle})=> {
   return (
     <>
-      <div className="feature-container">
+      <div className="feature-container ">
            <img src={featureImg} className="feature-img"/> <br/>
            <p className='feature-Title'>{FeatureTitle}</p>
       </div>

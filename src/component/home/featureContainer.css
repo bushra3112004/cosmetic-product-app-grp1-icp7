@@ -1,8 +1,12 @@
+.feature-container{
+   margin: 10px 50px;
+   justify-content: space-around;
+}
 .feature-img{
     height: 100px;
     width: 100px;
 }
-feature-Title{
+.feature-Title{
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
