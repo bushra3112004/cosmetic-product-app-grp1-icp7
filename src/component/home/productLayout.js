@@ -9,7 +9,7 @@ function productLayout(){
       <div className="product-container">
        {
         ProductList.map((productObject , i)=>{
-            const {productImg ,
+            const {
                 rating,
                 productName,
                 productPrice 

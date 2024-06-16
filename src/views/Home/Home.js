@@ -14,7 +14,7 @@ function Home() {
    <Banner/>
    <div className='row  mx-3 '>
    <CategoryCard catImg={Cat1} 
-      catName={<Button text="Skin Care"/> } />
+      catName={<Button text="Skin Care" /> } />
 
    <CategoryCard catImg={Cat2} 
       catName={<Button text="Make Up"/> } />

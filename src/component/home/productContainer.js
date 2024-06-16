@@ -2,21 +2,21 @@ import "./productConatainer.css"
 //rfce
 import React from 'react'
 
-function productContainer() {
+function productContainer({productImg ,productName ,productPrice ,rating}) {
   return (
-    <div className="product-container">
+    <div className="product-container container">
             
             <div >
-                <img src={productImg} />
+                <img src={productImg} className="product-img img-fluid" />
             </div>
-            <div>
-                <p>{productName}</p> <br/>
-                <p>{productPrice}</p> <br/>
-                <p>{rating}</p>
+            <div className="description-container">
+                <p className="product-name">{productName}</p> <br/>
+                <p className="product-price">{productPrice}</p> <br/>
+                <p className="product-rating">{rating}</p>
             </div>
         </div>
       
   )
 }
 
-export default productContainer
+export default productContainer;
