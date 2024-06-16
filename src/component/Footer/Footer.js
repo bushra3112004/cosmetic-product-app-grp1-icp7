@@ -15,21 +15,19 @@ function Footer() {
                 </div>
 
                 <div className="quick-links">
-                    <p><b><u>Quick Links</u></b></p>
-                    <Link to="/">
-                        <p>Home</p>
-                    </Link>
-                    <p>Search</p>
-                    <p>Contact</p>
-                    <p>About</p>
-                    <a className="footer-name"> Customer Rreview</a>
+                    <span><b><u>Quick Links</u></b></span>
+                    <Link to="/" className="links"> Home   </Link>
+                    <Link to="/product" className="links"> Product </Link>
+                    <Link to="/about" className="links"> About   </Link>
+                    <Link to="/contact" className="links"> Contact </Link>
+                
                 </div>
 
                 <div className="useful-links">
                     <span><b><u>Usefull Links</u></b></span>
                     <span>Privacy Policy</span>
                     <span>Terms And conditions</span>
-                    <span>Desclimer</span>
+                    
                     <span>Support</span>
                     <span>FAQ</span>
                 </div>
@@ -37,7 +35,7 @@ function Footer() {
                 <div className="contact">
                     <p><b>CONTACT</b></p>
                     <p>123, sarafa road PSK 3, </p>
-                    <p>Chimur , Chandrapur , India</p>
+                    <p>Nagpur , Maharashtra , India</p>
 
                     <div>
                         <img src={gmail} className='footer-icon' />
