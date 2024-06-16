@@ -1,16 +1,17 @@
 import "./About.css"
-import bg1 from "./bg1.jpg"
-import nailPaints from "./about-image-2.jpg"
-import fruit from "./fruit.png"
-import floral from "./floral.png"
-import ocean from "./ocean.png"
+import bg1 from "./img/bg1.jpg"
+import nailPaints from "./img/about-image-2.jpg"
+import fruit from "./img/fruit.png"
+import floral from "./img/floral.png"
+import ocean from "./img/ocean.png"
 import { theme } from "../../configData"
 import { cosmetic_sold,happy_client,countries,employee } from "./AboutData"
 import TeamCard from "../../component/TeamCard/TeamCard"
 import ButtonBox from "./../../component/ButtonBox/ButtonBox"
-import RJ from "./RJ.jpeg"
-import TD from "./TD.jpeg"
+import RJ from "./img/RJ.jpeg"
+import TD from "./img/TD.jpeg"
 import { Link } from "react-router-dom"
+import { Toaster,toast } from "react-hot-toast"
 
 
 
@@ -86,7 +87,8 @@ function About() {
                     Our team is the heart and soul of our company, bringing together a diverse group of dedicated professionals who are passionate about natural organic cosmetics. Each member of our team plays a vital role in our mission to create high-quality, sustainable products that enhance beauty and well-being.
                     </div>
                     <div className="btn-div">
-                    <Link to="/about" >
+                    <Toaster />
+                    <Link to="/about" onClick={() => toast('Welcome to About Page')} >
                         <ButtonBox
                             text="View More"
                         />
