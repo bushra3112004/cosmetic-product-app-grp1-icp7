@@ -31,9 +31,8 @@ const router =createBrowserRouter([
    path:"/product/productview/:id",
    element:<Productview/>
 
-}
+},
 
-  
 ])
 root.render(<RouterProvider router={router} /> )
 
