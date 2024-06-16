@@ -8,6 +8,7 @@ import { theme } from "../../configData"
 import { cosmetic_sold,happy_client,countries,employee } from "./AboutData"
 import TeamCard from "../../component/TeamCard/TeamCard"
 import RJ from "./RJ.jpeg"
+import TD from "./TD.jpeg"
 
 
 function About() {
@@ -29,8 +30,8 @@ function About() {
                 </div>
                 <div className="cosmetic-types-data-2">
                     <div className="cosmetic-types-data-2-text">
-                        <h1 style={{color: theme.Heading}} className="headingFont">NATURAL ORGANIC COSMETICS PROMOTES REJUVENATION</h1>
-                        <p style={{color: theme.description}} className="descriptionFont">Bleak cod cutthroat eel sargassum fish panga sucker beardfish lionfish batfish eulachon Raccoon butterfly fish tetra. Pejerrey combtooth blenny Sundaland Noodlefish pipefish zebra shark beaked salmon hillstream loach New Zealand smelt salmon false moray pelican eel stoneroller minnow.</p>
+                        <h1 style={{color: theme.Heading}} className="headingFont"> Use of NATURAL ORGANIC COSMETICS</h1>
+                        <p style={{color: theme.description}} className="descriptionFont">Using natural organic cosmetics offers numerous advantages for both your skin and the environment. These products are formulated without harmful chemicals, synthetic additives, or artificial fragrances, making them gentler and safer for your skin, particularly if you have sensitivities or allergies. Rich in natural vitamins, minerals, and antioxidants, organic cosmetics nourish and rejuvenate your skin, promoting a healthy and radiant complexion. Environmentally, organic farming practices used to produce these ingredients are more sustainable and eco-friendly, reducing pollution and conserving resources. </p>
                     </div>
                     <div className="types-images">
                         <div>
@@ -51,7 +52,7 @@ function About() {
             <div className="section3">
                 <div className="section3-sub">
                     <h1 style={{color: theme.Heading}} className="headingFont">Our Achievements</h1>
-                    <p style={{color: theme.description}} className="section3-description descriptionFont">Black scabbardfish vimba, beaked salmon sandroller, firefish silver driftfish, golden dojo finback cat shark central uhylise</p>
+                    <p style={{color: theme.description}} className="section3-description descriptionFont">Highlighting our achievements showcases our commitment to excellence, innovation, and sustainability. </p>
                 </div>
                 <div className="section3-sub2">
                     <div className="section3-sub2-div" style={{backgroundColor:theme.secondaryColor}}>
@@ -79,7 +80,7 @@ function About() {
                 <h1 style={{color: theme.Heading}} className="headingFont">Our Team</h1>
                 <div className="section5-1">
                     <div style={{color: theme.description, width:'700px'}}  className="descriptionFont">
-                        Mosshead warbonnet queen triggerfish black bass scissor-tail rasbora–great white shark driftfish carpetshark swamp-eel rice eel
+                    Our team is the heart and soul of our company, bringing together a diverse group of dedicated professionals who are passionate about natural organic cosmetics. Each member of our team plays a vital role in our mission to create high-quality, sustainable products that enhance beauty and well-being.
                     </div>
                     <div style={{marginLeft:'10px'}}>
                         <button>View More</button>
@@ -87,34 +88,34 @@ function About() {
                 </div>
                 <div className="team-img-div">
                         <TeamCard 
-                            TeamName="Rutu" 
-                            TeamImage={RJ}
+                            TeamName="Bushra Pathan" 
+                            TeamImage={RJ} 
                             TeamPosition="CEO"
                         />
                         <TeamCard 
-                            TeamName="Rutu" 
+                            TeamName="Rutuja Jadhav" 
                             TeamImage={RJ}
                             TeamPosition="Devloper"
                         />
                         <TeamCard 
-                            TeamName="Rutu" 
+                            TeamName="Shashikant Surve" 
                             TeamImage={RJ}
                             TeamPosition="Designer"
                         />
                     </div>
                     <div className="team-img-div">
                          <TeamCard 
-                            TeamName="Rutu" 
-                            TeamImage={RJ}
+                            TeamName="Tejas Dongare" 
+                            TeamImage={TD}
                             TeamPosition="Product Manager"
                         />
                          <TeamCard 
-                            TeamName="Rutu" 
+                            TeamName="Shubhangi Pawar" 
                             TeamImage={RJ}
                             TeamPosition="Service Manager"
                         />
                          <TeamCard 
-                            TeamName="Rutu" 
+                            TeamName="Pranay Dandekar" 
                             TeamImage={RJ}
                             TeamPosition="Office Head"
                         />

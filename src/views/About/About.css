@@ -42,13 +42,15 @@
    border:  1px solid gray;
    padding: 10px;
    margin: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .cosmetic-types-data-2{
-    margin: 80px;
+    margin: 50px;
 }
 .cosmetic-types-data-2-text{
     text-align: left;
-    width: 580px;
+    width: 650px;
+
 }
 
 .types-images{
@@ -115,4 +117,5 @@
     flex-direction: row;
     margin-top: 40px;
     justify-content: center;
+    
 }

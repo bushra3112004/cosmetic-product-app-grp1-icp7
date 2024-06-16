@@ -3,12 +3,11 @@
     height: 450px;
     border-radius: 20px;
     position: relative;
-  
 }
 .team-name-text{
     position: absolute;
-    left: 35%;
-    font-size: 20px;
+    left: 25%;
+ 
 }
 .team-image{
     height: 350px;
@@ -16,8 +15,13 @@
     display: block;
     border: 1px solid black;
     padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.team-image:hover{
+    border-radius: 50%;
+    transition: 1ms;
 }
 .team-position-text{
-    margin-left: 90px;
-    margin-top: 50px;
+    margin-left: 26%;
 }
