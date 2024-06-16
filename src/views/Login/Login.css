@@ -6,9 +6,10 @@
 }
 .main-container{
     background-color:#EAAA85;
-    height: 600px;
-    margin: auto 400px;
+    height: 700px;
+    margin: auto 550px;
     display: inline-block;
+    border: 2px solid black;
     
 }
 .profile-img{
@@ -32,7 +33,7 @@
 }
 .input-box{
     width: 500px;
-    height: 20px;
+    height: 40px;
     padding: 10px;
     margin: 6px;
     font-size: 15px;
@@ -48,17 +49,24 @@
 
 }
 .last-container{
-    background-color: rgb(174, 134, 141);
-    height: 80px;
+    
+    height: 60px;
+    
+    
 }
 .cancel-btn{
     width: 100px;
     height: 40px;
     border-radius: 5px;
     background-color: rgb(241, 60, 60);
-    margin: 20px;
+    margin: 5px;
     
 }
 .chk-box{
     font-size: 20px;
+}
+.psw{
+
+    font-size: 20px;
+    margin-left: 280px;
 }

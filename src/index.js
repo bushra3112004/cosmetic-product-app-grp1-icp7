@@ -8,7 +8,6 @@ import Login from "./views/Login/Login";
 import Product from "./views/Product/Product";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-
 const router = createBrowserRouter([
     {
         path: "/about",
@@ -33,5 +32,5 @@ const router = createBrowserRouter([
 
 ]);
 
-root.render(<RouterProvider router={router} />);
-export default index
+root.render(<RouterProvider router={router}/>);
+
