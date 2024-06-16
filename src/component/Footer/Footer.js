@@ -2,6 +2,9 @@
 import logo from "./../../assets/logo.png"
 import './Footer.css';
 import gmail from "./../Footer/footer-icon/gmail.png"
+import facebook from "./../Footer/footer-icon/facebook.png"
+import twitter from "./../Footer/footer-icon/twitter.png"
+import google from "./../Footer/footer-icon/google.png"
 import { Link } from 'react-router-dom';
 
 
@@ -34,11 +37,14 @@ function Footer() {
 
                 <div className="contact">
                     <p><b>CONTACT</b></p>
-                    <p>123, sarafa road PSK 3, </p>
-                    <p>Nagpur , Maharashtra , India</p>
+                    <span>123, sarafa road PSK 3, 
+                    Nagpur , Maharashtra , India</span>
 
                     <div>
                         <img src={gmail} className='footer-icon' />
+                        <img src={facebook} className='footer-icon' />
+                        <img src={twitter} className='footer-icon' />
+                        <img src={google} className='footer-icon' />
                     </div>
                 </div>
                 </div>
