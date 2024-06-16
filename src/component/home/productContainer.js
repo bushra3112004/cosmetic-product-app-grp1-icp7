@@ -4,7 +4,7 @@ import React from 'react'
 
 function productContainer({productImg ,productName ,productPrice ,rating}) {
   return (
-    <div className="product-container container">
+    <div className="product-container ">
             
             <div >
                 <img src={productImg} className="product-img img-fluid" />

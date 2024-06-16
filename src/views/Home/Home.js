@@ -12,7 +12,7 @@ function Home() {
   return (<>
    
    <Banner/>
-   <div className='row  mx-3 '>
+   <div className=' row mx-3 '>
    <CategoryCard catImg={Cat1} 
       catName={<Button text="Skin Care" /> } />
 
@@ -32,6 +32,6 @@ function Home() {
   )
 }
 
-export default Home;
+export default Home
 
 //
