@@ -14,7 +14,7 @@
     background-color:#fddbc4;
     height: 700px;
     width: 580px;
-    margin: 10px 330px;
+    margin: 10px 500px;
     display: block;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
@@ -42,7 +42,7 @@
 .input-box{
     width: 520px;
     height: 40px;
-    padding: 10px;
+    padding: 5px;
     margin: 6px;
     font-size: 15px;
 }
@@ -93,13 +93,14 @@
         font-size: 15px;
     }
     .input-box{
-       width: 220px; 
-       height: 30px;
+       width: 280px; 
+       height: 35px;
 
     }
     .submit-btn{
-        width: 160px;
-        margin: 30px;
+        width: 200px;
+        margin: 40px;
+        margin-left: 50px;
     }
     .chk-box{
         font-size: 15px;
@@ -110,9 +111,10 @@
     
     }
     .psw{
-        font-size: 10px;
-        margin: 0px 25px;
+        font-size: 15px;
+        margin: 0px 40px;
         text-align: end;
+        
     }
     
 }
