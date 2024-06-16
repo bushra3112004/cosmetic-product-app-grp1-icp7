@@ -1,4 +1,4 @@
-import "./productConatainer.css"
+import "./productContainer.css"
 //rfce
 import React from 'react'
 

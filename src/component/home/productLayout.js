@@ -10,6 +10,7 @@ function productLayout(){
        {
         ProductList.map((productObject , i)=>{
             const {
+                productImg,
                 rating,
                 productName,
                 productPrice 
