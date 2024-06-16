@@ -34,9 +34,15 @@ function Login() {
             Login
           </button>
           <br />
-          <label>
+          <label className="chk-box">
             <input type="checkbox" name="remember" /> Remember me
           </label>
+          <br></br>
+         <b><hr></hr></b>
+          <div className="last-container">
+            <button type="button" className="cancel-btn">Cancel</button>
+            <span className="psw" >Forgot <a href="#">password?</a></span>
+          </div>
           
         </div>
       </div>

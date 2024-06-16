@@ -1,10 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.headingFont{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.subHeadingFont{
+    font-family: "Playwrite FR Moderne", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 23px;
+}
+.descriptionFont{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .section1{
     position: relative;
 }
 .text-on-image{
     position: absolute;
-    left: 5%;
-    bottom: 30%;
+    left: 7%;
+    bottom: 34%;
 }
 .title-bg{
     width: 1500px;
@@ -21,13 +42,15 @@
    border:  1px solid gray;
    padding: 10px;
    margin: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .cosmetic-types-data-2{
-    margin: 80px;
+    margin: 50px;
 }
 .cosmetic-types-data-2-text{
     text-align: left;
-    width: 580px;
+    width: 650px;
+
 }
 
 .types-images{
@@ -77,4 +100,22 @@
 .section4{
   margin-left: 230px;
   margin-top: 30px;
+}
+.section5{
+    margin-top: 40px;
+}
+.section5 h1{
+    margin-left: 20%;
+}
+.section5-1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+.team-img-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    
 }
