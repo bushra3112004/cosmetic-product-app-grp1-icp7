@@ -62,7 +62,7 @@ const Productdata = [
         Brand:"RELIANCE RETAIL LIMITED",
         Rating:4.0,
         Use :{
-            Use1: "The Smashbox Halo Healthy Glow Tinted Moisturizer Broad Spectrum SPF 25 in Light Neutral has several uses, making it a versatile addition to your skincare and makeup routine. Here are the primary uses of this cosmetic product",
+            Use1: "Blemishes and Acne: Effectively covers blemishes, acne scars, and other imperfections on the skin.",
             Use2: "1. Moisturization Hydration It hydrates the skin, providing moisture to keep your skin looking healthy and supple. This is especially beneficial for those with dry or combination skin types.",
             "Use3": "2. Tinted Coverage Even Skin Tone It offers light to medium coverage to even out skin tone and conceal minor imperfections. The tint provides a natural, sheer finish that enhances your complexion without looking heavy. Natural Look Ideal for a no-makeup makeup look, giving you a natural, radiant glow.",
             "Use4": "3. Sun ProtectionSPF 25 It includes broad-spectrum SPF 25, protecting your skin from harmful UVA and UVB rays. This helps prevent sunburn, premature aging, and sun damage when used as directed.Daily Sunscreen Suitable for daily use, ensuring you have basic sun protection as part of your routine.",
@@ -307,7 +307,7 @@ const Productdata = [
     {
         id: "18",
         ProductImg:Skin1,
-        Categories:"Skincare",
+        Categories:"Skin",
         Title: "Cetaphil Gentle Skin Cleanser (125ml)",
         Price: 40.00,
         Description: "This tinted moisturizer provides sheer to medium coverage while hydrating and protecting the skin with SPF 25. It's formulated with green tea and vitamins A, C, and E to help improve the appearance of fine lines and wrinkles.",
@@ -343,7 +343,7 @@ const Productdata = [
     {
         id: "19",
         ProductImg:Skin2,
-        Categories:"Skincare",
+        Categories:"Skin",
         Title:"Simple Kind To Skin Refreshing Facial Wash (150ml)",
         Price: 35.00,
         Description: "This concealer provides medium to high coverage and is designed to help conceal imperfections while giving the skin a natural-looking finish. It's available in a range of shades to suit different skin tones.",
@@ -379,7 +379,7 @@ const Productdata = [
     {
         id: "20",
         ProductImg:Skin3,
-        Categories:"Skincare",
+        Categories:"Skin",
         Title: "Bioderma Pigmentbio Foaming Cream Brightening Exfoliating Cleanser (200ml)",
         Price: 40.00,
         Description: "This foundation provides full coverage and is designed to help conceal imperfections while giving the skin a matte finish. It's available in a range of shades to suit different skin tones.",
@@ -415,7 +415,7 @@ const Productdata = [
     {
         id: "21",
         ProductImg:Skin4,
-        Categories:"Skincare",
+        Categories:"Skin",
         Title: "Plum Green Tea Pore Cleansing Face Wash - Pack Of 2 Acne Face Wash Combo",
         Price: 40.00,
         Description: "This tinted lip balm provides sheer to medium coverage and is designed to help moisturize and soften the lips. It's available in a range of shades to suit different skin tones.",
@@ -452,7 +452,7 @@ const Productdata = [
     {
         id: "22",
         ProductImg:Skin5,
-        Categories:"Skincare",
+        Categories:"Skin",
         Title: "Plum Green Tea Gentle Revival Face Scrub - (75g)",
         Price: 40.00,
         Description: "This setting spray is designed to help set makeup in place for a longer-lasting finish It's formulated with hydrating ingredients to help keep the skin moisturized throughout the day.",
@@ -489,7 +489,7 @@ const Productdata = [
     {
         id: "23",
         ProductImg:Skin6,
-        Categories:"Skincare",
+        Categories:"Skin",
         Title: "mCaffeine Naked & Raw Tan Removal Coffee Face Scrub - (100g)",
         Price: 40.00,
         Description: "This foundation provides full coverage and is designed to help conceal imperfections while giving the skin a luminous matte finish. It's available in a range of shades to suit different skin tones ",
@@ -526,7 +526,7 @@ const Productdata = [
     {
         id: "24",
         ProductImg:Skin7,
-        Categories:"Skincare",
+        Categories:"Skin",
         Title: "The Derma Co 1% Hyaluronic Sunscreen Aqua Gel SPF 50 Pa++ (50g)",
         Price: 40.00,
         Description: "This eyeliner is designed to help create a precise, bold line. It's formulated with a waterproof formula to help keep the line in place all day.",
@@ -563,7 +563,7 @@ const Productdata = [
     {
         id: "25",
         ProductImg:Skin8,
-        Categories:"Skincare",
+        Categories:"Skin",
         Title: "AqualogicaRadiance + Cleanse & Protect Combo",
         Price: 40.00,
         Description: "This tinted lip balm provides sheer to medium coverage and is designed to help moisturize and soften the lips. It's available in a range of shades to suit different skin tones.",
