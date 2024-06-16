@@ -26,11 +26,10 @@ const router = createBrowserRouter([
         element: <Product />
     },
     {
-        path:"/Home",
-        element:<Home/>
+        path: "/Home",
+        element: <Home />
     }
 
 ]);
 
-root.render(<RouterProvider router={router}/>);
-
+root.render(<RouterProvider router={router} />);
