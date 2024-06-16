@@ -7,8 +7,11 @@ import ocean from "./ocean.png"
 import { theme } from "../../configData"
 import { cosmetic_sold,happy_client,countries,employee } from "./AboutData"
 import TeamCard from "../../component/TeamCard/TeamCard"
+import ButtonBox from "./../../component/ButtonBox/ButtonBox"
 import RJ from "./RJ.jpeg"
 import TD from "./TD.jpeg"
+
+
 
 
 function About() {
@@ -82,8 +85,10 @@ function About() {
                     <div style={{color: theme.description, width:'700px'}}  className="descriptionFont">
                     Our team is the heart and soul of our company, bringing together a diverse group of dedicated professionals who are passionate about natural organic cosmetics. Each member of our team plays a vital role in our mission to create high-quality, sustainable products that enhance beauty and well-being.
                     </div>
-                    <div style={{marginLeft:'10px'}}>
-                        <button>View More</button>
+                    <div className="btn-div">
+                        <ButtonBox
+                            text="View More"
+                        />
                     </div>
                 </div>
                 <div className="team-img-div">
