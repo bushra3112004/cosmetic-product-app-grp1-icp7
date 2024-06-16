@@ -1,0 +1,22 @@
+.banner-container{
+    position: relative;
+}
+.background-img{
+    width: 1000px;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.btn-discover{
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #ddd ;
+    margin: 20px;
+    font-size: 18px;
+    transition: .7s;
+}
+.btn-discover:hover{
+    background-color: rgb(245, 212, 168);
+}
