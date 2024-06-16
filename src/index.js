@@ -6,6 +6,8 @@ import Contact from "./views/Contact/Contact"
 import Product from "./views/Product/Product"
 import Login from "./views/Login/Login"
 import Productview from "./views/Product/ProductView/Productview"
+import Navbar from "./component/Navbar/Navbar"
+import Footer from "./component/Footer/Footer"
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 
@@ -36,6 +38,14 @@ const router =createBrowserRouter([
 {
     path:"/login",
     element:<Login/>
+},
+{
+   path:"/navbar",
+   element:<Navbar/>
+},
+{
+   path:"/footer",
+   element:<Footer/>
 }
 
   
