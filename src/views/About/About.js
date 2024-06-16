@@ -10,6 +10,9 @@ import TeamCard from "../../component/TeamCard/TeamCard"
 import ButtonBox from "./../../component/ButtonBox/ButtonBox"
 import RJ from "./img/RJ.jpeg"
 import TD from "./img/TD.jpeg"
+import SS from "./img/SS.jpeg"
+import SP from "./img/SP.jpeg"
+import BP from "./img/BP.jpeg"
 import { Link } from "react-router-dom"
 import { Toaster,toast } from "react-hot-toast"
 
@@ -98,7 +101,7 @@ function About() {
                 <div className="team-img-div">
                         <TeamCard 
                             TeamName="Bushra Pathan" 
-                            TeamImage={RJ} 
+                            TeamImage={BP} 
                             TeamPosition="CEO"
                         />
                         <TeamCard 
@@ -108,7 +111,7 @@ function About() {
                         />
                         <TeamCard 
                             TeamName="Shashikant Surve" 
-                            TeamImage={RJ}
+                            TeamImage={SS}
                             TeamPosition="Designer"
                         />
                     </div>
@@ -120,7 +123,7 @@ function About() {
                         />
                          <TeamCard 
                             TeamName="Shubhangi Pawar" 
-                            TeamImage={RJ}
+                            TeamImage={SP}
                             TeamPosition="Service Manager"
                         />
                          <TeamCard 

@@ -3,6 +3,7 @@ import './Product.css'
 import banner from './banner.jpeg'
 import banner2 from './banner2.jpg'
 // import 'bootstrap/dist/css/bootstrap.min.css';
+import ButtonBox from "./../../component/ButtonBox/ButtonBox"
 import ProductCards from '../../component/ProductCards/ProductCards'
 import Productdata from './../../component/ProductCards/Productdata/Data'
 
@@ -11,6 +12,7 @@ function Product() {
     <>
 
       <img className='banner-img' width={'100%'} src={banner} />
+      <h1 className='Slogun'>-----"Glow Naturally, Shine Confidently"-----</h1>
 
       <div className='main-div'>
 
@@ -38,7 +40,7 @@ function Product() {
 
         <div className='categories-div'>
           <ul type='none'>
-            <li> <h1>Categories</h1></li>
+            <li> <h1 className='Sub-title'>Categories</h1></li>
             <li>
               <ul className='list-2' type='circle'>
                 <li>Makeup</li>
@@ -51,7 +53,7 @@ function Product() {
             </li>
           </ul>
           <hr />
-          <h1>Product Tag</h1>
+          <h1 className='Sub-title'>Product Tag</h1>
           <button className='tag-btn'>Cosmatics</button>
           <button className='tag-btn'>Facecaer</button>
           <button className='tag-btn'>Skincaer</button>

@@ -5,10 +5,7 @@ import Cat3 from "./homeImg/hairCare.jpg"
 import Banner from "./../../component/home/banner"
 import CategoryCard from '../../component/home/categoryCard';
 import { theme } from "./../../configData";
-import  Button  from "./../../component/ButtonBox/ButtonBox"
-import ProductLayout from '../../component/home/productLayout'
-//import Navbar from "./../../component/Navbar/Navbar"
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 function Home() {
   return (<>
    
