@@ -1,14 +1,19 @@
 .product-card {
   padding: 20px;
-  margin: 25px 0px;
+  margin: 25px 10px;
   text-align: center;
   position: relative;
   width: 300px;
   border: 1px solid black;
+  
 }
-/*.product-card :hover{
+.prod-card{
+  margin:10px 10px;
+  justify-content:space-around;
+}
+.prod-card:hover{
   box-shadow: inset 3px 3px 5px 1px #a3a3a3;
-}*/
+}
 
 .product-info {
   margin-top: 10px;
@@ -19,4 +24,16 @@
 }
 .productImg{
   width: 250px;
+  height: 250px;
+  opacity: .7;
+}
+.productImg:hover{
+  opacity: 1;
+}
+
+h3{
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 15px;
+  font-style: normal;
 }

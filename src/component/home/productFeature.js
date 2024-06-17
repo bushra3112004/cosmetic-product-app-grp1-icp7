@@ -16,7 +16,7 @@ const ProductFeature = () => {
         <p className="feature-description descriptionFont">
           Popularized through customer relationships with some of the world’s most recognizable faces, the “brow revolution” she ignited has become a landmark contribution to beauty history. In 2014, debuted its new color makeup line on Instagram, cultivating a relationship with customers.
         </p>
-       <Button text="Explore More" />
+      
        
       </div>
     </div>

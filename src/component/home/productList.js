@@ -74,12 +74,27 @@ const ProductList = [
             productName: "Conditioning Hair Mask",
             productPrice: "$17.49"
         },
+       
         {
-            id:10,
-            productImg: Product10,
-            rating: "4.6",
-            productName: "Anti-Frizz Serum",
-            productPrice: "$13.99"
+            id:11,
+            productImg: Product4,
+            rating: "4.8",
+            productName: "Long-Wear Liquid Foundation",
+            productPrice: "$29.99"
+        },
+        { 
+            id:12,
+            productImg: Product8,
+            rating: "4.7",
+            productName: "Moisturizing Shampoo",
+            productPrice: "$10.99"
+        },
+        {
+            id:13,
+            productImg: Product2,
+            rating: "4.7",
+            productName: "Revitalizing Night Cream",
+            productPrice: "$22.49"
         }
     
     

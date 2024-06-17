@@ -5,7 +5,7 @@ import ProductContainer from './productContainer';
 
 const productLayout= () => {
   return (
-    <div className="product-list ">
+    <div className="product-list row">
       {ProductList.map((productObject, i) => {
         const { productImg, 
             productName,
