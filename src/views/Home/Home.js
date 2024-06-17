@@ -11,6 +11,7 @@ import Testimonial from "./../../component/home/testimonial"
 import ProductLayout from "./../../component/home/productLayout";
 import Navbar from "./../../component/Navbar/Navbar"
 import Footer from '../../component/Footer/Footer'
+import ProductFeature from '../../component/home/productFeature'
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 function Home() {
@@ -34,6 +35,7 @@ function Home() {
   <div className='explore-btn'><Button text="Explore More"/></div>
   <Feature/>
   <Testimonial/>
+  <ProductFeature/>
   <ProductLayout/>
   <Footer/>
     </>
