@@ -8,11 +8,11 @@ function ProductCards({ id, ProductImg, Title, Price }) {
     <Toaster />
       <Link className="ProductCard" onClick={() => toast('Page is loded Succesfully ✅✔️')} to={`/Product/Productview/${id}`}>
         <div className="image">
-          <img   className="Productimg" src={ProductImg} alt={Title} />
+          <img   className="Productimg img-fluid" src={ProductImg} alt={Title} />
         </div>
         <div className="info">
           {id}
-          <h3 className='cards-title'>{Title.length > 51 ? `${Title.substring(0, 51)}...` : Title}</h3>
+          <h3 className='cards-title fs-6'>{Title.length > 51 ? `${Title.substring(0, 51)}...` : Title}</h3>
           <p>Price: {Price}</p>
           <ButtonBox text="View Details" />
         </div>

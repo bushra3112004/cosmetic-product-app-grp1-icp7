@@ -103,10 +103,10 @@ function Product() {
           <button className='tag-btn'>Skincare</button>
           <button className='tag-btn'>Perfume</button>
           <hr />
-          <img className='banner2' src={banner2} alt="Banner 2" />
+          <img className='banner2 img-fluid' src={banner2} alt="Banner 2" />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
