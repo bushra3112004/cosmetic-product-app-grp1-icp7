@@ -11,6 +11,29 @@ import Productdata from './../../component/ProductCards/Productdata/Data';
 
 function Product() {
   const [searchTerm, setSearchTerm] = useState("");
+  const [filteredData, setFilteredData] = useState(Productdata);
+
+  const filterResults = (catItm) => {
+    if (catItm === "All") {
+      setFilteredData(Productdata);
+    } else {
+      const result = Productdata.filter((curData) => curData.Categories === catItm);
+      setFilteredData(result);
+    }
+  }
+
+  useEffect(() => {
+    const result = Productdata.filter((val) => {
+      if (searchTerm === "") {
+        return true;
+      } else if (val.Title.toLowerCase().includes(searchTerm.toLowerCase())) {
+        return true;
+      }
+      return false;
+    });
+    setFilteredData(result);
+  }, [searchTerm]);
+
   return (
     <>
       <Navbar />
@@ -31,15 +54,7 @@ function Product() {
       <div className='main-div'>
         <div className='pcardsContainers'>
           {
-            Productdata
-            .filter((val)=>{
-              if (searchTerm ===""){
-                return val;
-              }else if (val.Title.toLowerCase().includes(searchTerm.toLocaleLowerCase())){
-                return val;
-              }
-            })
-            .map((item, i) => {
+            filteredData.map((item, i) => {
               const { id, ProductImg, Title, Price, Categories } = item;
               return (
                 <ProductCards
@@ -60,10 +75,11 @@ function Product() {
             <li><h1 className='Sub-title'>Categories..</h1></li>
             <li>
               <ul type='circle'>
-                  <li className={`list-2`}> Makeup</li>
-                  <li className={`list-2`}> Skincare</li>
-                  <li className={`list-2`}> Hair</li>
-                  <li className={`list-2`}> Body & Bath</li>
+                <li className={`list-2`} onClick={() => filterResults('All')}>All</li>
+                <li className={`list-2`} onClick={() => filterResults('Makeup')}>Makeup</li>
+                <li className={`list-2`} onClick={() => filterResults('Skin')}>Skincare</li>
+                <li className={`list-2`} onClick={() => filterResults('Hair')}>Hair</li>
+                <li className={`list-2`} onClick={() => filterResults('Body')}>Body & Bath</li>
               </ul>
             </li>
           </ul>
