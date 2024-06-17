@@ -79,6 +79,7 @@ function Productview() {
               ProductImg,
               Title,
               Price,
+              Categories,
             } = Carddata
             return (
               <ProductCards
@@ -87,6 +88,7 @@ function Productview() {
                 ProductImg={ProductImg}
                 Title={Title}
                 Price={Price}
+                Categories={Categories}
               />)
           })
         }
