@@ -9,12 +9,13 @@ function Login() {
   return (
     <>
      <Navbar/>
-     <div>
+    
     <form >
       <div className="body">
+        <h1>.</h1>
         <h1 className="heading">Login Form</h1>
       <div className="main-container">
-        <img src={ProfileImg} alt="Profile" className="profile-img" />
+       <img src={ProfileImg} alt="Profile" className="profile-img" />
         <div className="container">
           <label htmlFor="uname" className="input-name">
             <b>Username:</b>
@@ -61,10 +62,13 @@ function Login() {
           
         </div>
       </div>
+      
+      
+      
       </div>
       
     </form>
-    </div>
+    
       <Toaster />
 
      <Footer />

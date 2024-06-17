@@ -9,6 +9,7 @@ function Contact() {
   return (
     <>
     <Navbar/>
+    <h1>.</h1>
       <h1 className="text-center mt-4 heading ">Contact Us</h1>
       <div className="container-1 rounded mx-auto">
         <div className="row">
