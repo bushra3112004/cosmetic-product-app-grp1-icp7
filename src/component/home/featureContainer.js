@@ -7,7 +7,7 @@ const featureContainer= ({featureImg , FeatureTitle})=> {
     <>
       <div className="feature-container ">
            <img src={featureImg} className="feature-img"/> <br/>
-           <p className='feature-Title'>{FeatureTitle}</p>
+           <p className='descriptionFont'>{FeatureTitle}</p>
       </div>
     
     </> 
