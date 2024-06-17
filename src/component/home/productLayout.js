@@ -1,11 +1,11 @@
 // App.js
 import React from 'react';
 import ProductList from "./productList";
-import ProductContainer from './productContainer';// Assuming you have a CSS file for styling
+import ProductContainer from './productContainer';
 
 const productLayout= () => {
   return (
-    <div className="product-list">
+    <div className="product-list ">
       {ProductList.map((productObject, i) => {
         const { productImg, 
             productName,
