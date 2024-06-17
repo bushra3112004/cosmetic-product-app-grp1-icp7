@@ -1,20 +1,26 @@
 .footer {
     background-color: black;
-    height: 270px;
-    box-shadow: 0 0 10 10 gray;
- }
+    
+    width: 100%;
+    box-shadow: 0 0 10 10 gray; 
+    position: fixed;
+    bottom: 0;
+   
+  } 
 
  .footer-desc {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 20px;
 
  }
  .img {
     height: 220px;
     width: 280px;
-    margin: 20px;
+    margin: 10px;
+    border-radius: 10px;
  }
  .quick-links {
     height: 230px;
@@ -45,14 +51,14 @@
 
  .contact {
     height: 230px;
-    width: 220px;
+    width: 240px;
     color: white;
     padding: 20px 20px;
     text-align: center;
   
  }
  .footer-icon {
-    height: 25px;
+    height: 28px;
     margin: 10px;
     margin-top: 40px;
  }
