@@ -6,7 +6,7 @@ function productLayout(){
      
     return (
       <>
-      <div className="product-container">
+      
        {
         ProductList.map((productObject , i)=>{
             const {
@@ -17,6 +17,7 @@ function productLayout(){
             }= productObject
 
             return (
+                
                 <ProductContainer
                 key={i} 
                 productImg={productImg} 
@@ -24,16 +25,16 @@ function productLayout(){
                 productPrice={productPrice}
                 rating={rating}
              />
-        
+    
             )
         })
        }
-       </div>
+    
       </>
     )
 
 }
-
+export default productLayout
 /*const productLayout = ({productImg , rating , productName ,productPrice })=>{
     
         
@@ -59,4 +60,4 @@ function productLayout(){
     )
     </>
     }*/
-    export default productLayout;
+    

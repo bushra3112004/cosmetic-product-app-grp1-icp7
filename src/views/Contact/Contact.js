@@ -2,10 +2,14 @@ import React from 'react'
 import toast, { Toaster } from 'react-hot-toast'
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../Contact/Contact.css"
+import Navbar from "./../../component/Navbar/Navbar"
+import Footer from "./../../component/Footer/Footer"
 
 function Contact() {
   return (
     <>
+    <Navbar/>
+    <h1>.</h1>
       <h1 className="text-center mt-4 heading ">Contact Us</h1>
       <div className="container-1 rounded mx-auto">
         <div className="row">
@@ -62,6 +66,7 @@ function Contact() {
         </div>
       </div>
       <Toaster />
+      <Footer/>
     </>
   )
 }
