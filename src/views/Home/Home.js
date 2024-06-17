@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import Cat1 from "./homeImg/skinCare2.jpg"
 import Cat2 from "./homeImg/meakUp.jpg"
 import Cat3 from "./homeImg/hairCare.jpg"
@@ -33,7 +34,7 @@ function Home() {
     <span className='fs-3 subHeadingFont'style={{color:theme.description,fontStyle: "italic"}} >The stylish and organized cosmetic products</span>
   </div>
   <ProductLayout/>
-  <center className='explore-btn'><Button text="Explore More"/></center>
+  <Link to="./../Product">  <center className='explore-btn'><Button text="Explore More"/></center></Link>
   <ProductFeature/>
   <Feature/>
   <Testimonial/>

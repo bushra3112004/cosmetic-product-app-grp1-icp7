@@ -1,4 +1,4 @@
-// App.js
+import {Link} from "react-router-dom"
 import React from 'react';
 import ProductList from "./productList";
 import ProductContainer from './productContainer';
@@ -13,7 +13,7 @@ const productLayout= () => {
               rating } = productObject
         
         return (
-          <ProductContainer
+           <ProductContainer
             key={i}
             productImg={productImg}
             productName={productName}

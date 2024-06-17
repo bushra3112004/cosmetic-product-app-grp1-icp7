@@ -13,7 +13,7 @@ const ProductContainer = ({ productImg, productName, productPrice, rating }) => 
         <h3>{productName}</h3>
         <p>Price : {productPrice}</p>
         <div className="">
-        Rating : {rating}
+        Rating : {rating} ⭐
         </div>
       </div>
     </div>

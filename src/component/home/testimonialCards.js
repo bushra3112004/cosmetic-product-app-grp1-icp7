@@ -11,7 +11,7 @@ function testimonialCards({clientName , clientSay}) {
       <p className='headingFont fs-3' style={{color:theme.primaryColor}}> Testimonials</p> 
       <p className='subHeadingFont fs-5'> What Our Clients Say</p>
       <div className=''>
-      <p>{clientSay}</p>
+      <p className='descriptionFont'>{clientSay}</p>
       <p className='descriptionFont'> - {clientName}</p>
       </div>
     </div>
