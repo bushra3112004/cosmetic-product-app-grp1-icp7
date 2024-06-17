@@ -11,38 +11,6 @@ import Productdata from './../../component/ProductCards/Productdata/Data';
 
 function Product() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedFilters, setSelectedFilters] = useState([]);
-  const [filteredItems, setFilteredItems] = useState(Productdata);
-
-  let filters = ["Makeup", "Skin", "Hair", "Bath & Body"];
-
-  const handleFilterButtonClick = (selectedCategory) => {
-    if (selectedFilters.includes(selectedCategory)) {
-      let filters = selectedFilters.filter((el) => el !== selectedCategory);
-      setSelectedFilters(filters);
-    } else {
-      setSelectedFilters([...selectedFilters, selectedCategory]);
-    }
-  };
-
-  useEffect(() => {
-    filterItems();
-  }, [selectedFilters, searchTerm]);
-
-  const filterItems = () => {
-    let tempItems = [...Productdata];
-
-    if (selectedFilters.length > 0) {
-      tempItems = tempItems.filter((item) => selectedFilters.includes(item.Categories));
-    }
-
-    if (searchTerm) {
-      tempItems = tempItems.filter((val) => val.Title && val.Title.toLowerCase().includes(searchTerm.toLowerCase()));
-    }
-
-    setFilteredItems(tempItems);
-  };
-
   return (
     <>
       <Navbar />
@@ -61,11 +29,18 @@ function Product() {
       <hr />
 
       <div className='main-div'>
-
         <div className='pcardsContainers'>
           {
-            filteredItems.map((item, i) => {
-              const { id, ProductImg, Title, Price,Categories } = item;
+            Productdata
+            .filter((val)=>{
+              if (searchTerm ===""){
+                return val;
+              }else if (val.Title.toLowerCase().includes(searchTerm.toLocaleLowerCase())){
+                return val;
+              }
+            })
+            .map((item, i) => {
+              const { id, ProductImg, Title, Price, Categories } = item;
               return (
                 <ProductCards
                   key={i}
@@ -85,15 +60,10 @@ function Product() {
             <li><h1 className='Sub-title'>Categories..</h1></li>
             <li>
               <ul type='circle'>
-                {filters.map((category, i) => (
-                  <li
-                    onClick={() => handleFilterButtonClick(category)}
-                    className={`list-2 `}
-                   
-                  >
-                    {category}
-                  </li>
-                ))}
+                  <li className={`list-2`}> Makeup</li>
+                  <li className={`list-2`}> Skincare</li>
+                  <li className={`list-2`}> Hair</li>
+                  <li className={`list-2`}> Body & Bath</li>
               </ul>
             </li>
           </ul>
@@ -107,7 +77,7 @@ function Product() {
           <img className='banner2 img-fluid' src={banner2} alt="Banner 2" />
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

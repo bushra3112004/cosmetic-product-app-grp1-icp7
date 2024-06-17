@@ -15,11 +15,11 @@
     transition: .8s;
     cursor:pointer;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 2px double  #aaa;
 }
 .product-img:hover{
     box-shadow: 10px 10px 15px 5px #aaa;
-    border: 2px solid #aaa;
+    border: 1px double #ddd;
 }
 .product-img-container{
     display: block;
