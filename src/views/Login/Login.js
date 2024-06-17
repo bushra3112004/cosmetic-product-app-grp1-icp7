@@ -7,8 +7,8 @@ import Footer from "./../../component/Footer/Footer"
 function Login() {
   return (
     <>
-      <Navbar />
-
+     
+     <Navbar/>
     <form className="body">
       <h1 className="heading">Login Form</h1>
       <div className="main-container">
