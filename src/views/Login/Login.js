@@ -1,8 +1,14 @@
 import "./Login.css";
 import ProfileImg from "./person.png";
+import Navbar from "./../../component/Navbar/Navbar"
+import Footer from "./../../component/Footer/Footer"
+
 
 function Login() {
   return (
+    <>
+      <Navbar />
+
     <form className="body">
       <h1 className="heading">Login Form</h1>
       <div className="main-container">
@@ -47,6 +53,8 @@ function Login() {
         </div>
       </div>
     </form>
+      <Footer />
+    </>
   );
 }
 
