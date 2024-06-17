@@ -65,7 +65,7 @@ function Product() {
         <div className='pcardsContainers'>
           {
             filteredItems.map((item, i) => {
-              const { id, ProductImg, Title, Price } = item;
+              const { id, ProductImg, Title, Price,Categories } = item;
               return (
                 <ProductCards
                   key={i}
@@ -73,6 +73,7 @@ function Product() {
                   ProductImg={ProductImg}
                   Title={Title}
                   Price={Price}
+                  Categories={Categories}
                 />
               )
             })
