@@ -1,0 +1,30 @@
+.feature-container{
+   margin: 10px 50px;
+   justify-content: space-around;
+}
+.feature-img{
+    height: 100px;
+    width: 100px;
+}
+.feature-Title{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 900px) {
+    .feature-container {
+        margin: 10px 20px; 
+        justify-content: center; 
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .feature-img {
+        height: 80px; 
+        width: 80px;
+    }
+
+    .feature-Title {
+        font-size: 18px; 
+    }
+}

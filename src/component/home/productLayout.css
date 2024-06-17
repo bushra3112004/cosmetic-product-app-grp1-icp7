@@ -1,4 +1,7 @@
-.product-container {
+.pro-card{
+    height: 300px;
+    width: 200px;
     display: flex;
     justify-content: space-around;
+    margin: 10px;
 }
