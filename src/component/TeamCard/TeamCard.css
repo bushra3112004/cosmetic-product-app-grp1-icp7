@@ -19,7 +19,7 @@
 }
 .team-image:hover{
     border-radius: 50%;
-    transition-duration: 2s;
+    transition-duration: 5ms;
 }
 .team-position-text{
     margin-left: 82px;
