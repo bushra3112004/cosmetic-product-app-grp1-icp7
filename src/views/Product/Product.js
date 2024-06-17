@@ -5,6 +5,7 @@ import banner2 from './banner2.jpg';
 import Footer from './../../component/Footer/Footer';
 import Navbar from './../../component/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Toaster,toast } from "react-hot-toast"
 import ButtonBox from "./../../component/ButtonBox/ButtonBox";
 import ProductCards from '../../component/ProductCards/ProductCards';
 import Productdata from './../../component/ProductCards/Productdata/Data';
@@ -75,11 +76,11 @@ function Product() {
             <li><h1 className='Sub-title'>Categories..</h1></li>
             <li>
               <ul type='circle'>
-                <li className={`list-2`} onClick={() => filterResults('All')}>All</li>
-                <li className={`list-2`} onClick={() => filterResults('Makeup')}>Makeup</li>
-                <li className={`list-2`} onClick={() => filterResults('Skin')}>Skincare</li>
-                <li className={`list-2`} onClick={() => filterResults('Hair')}>Hair</li>
-                <li className={`list-2`} onClick={() => filterResults('Body')}>Body & Bath</li>
+                <li className={`list-2`} onClick={() =>{ filterResults('All'); toast.success('All Products Load Succesfully');}}>All</li>
+                <li className={`list-2`} onClick={() =>{ filterResults('Makeup'); toast.success('Makeup Category Products Loded Succesful')}}>Makeup</li>
+                <li className={`list-2`} onClick={() =>{ filterResults('Skin'); toast.success('SkinCare Category Products Loded Succesful')}}>Skincare</li>
+                <li className={`list-2`} onClick={() =>{ filterResults('Hair'); toast.success('Hair Category Products Loded Succesful')}}>Hair</li>
+                <li className={`list-2`} onClick={() =>{ filterResults('Body & Bath'); toast.success('Body & Bath Category Products Loded Succesful')}}>Body & Bath</li>
               </ul>
             </li>
           </ul>
@@ -93,6 +94,7 @@ function Product() {
           <img className='banner2 img-fluid' src={banner2} alt="Banner 2" />
         </div>
       </div>
+      <Toaster/>
       <Footer />
     </>
   );
