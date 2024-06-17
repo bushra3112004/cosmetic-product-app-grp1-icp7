@@ -1,7 +1,6 @@
-.pro-card{
-    height: 300px;
-    width: 200px;
+.product-list {
     display: flex;
-    justify-content: space-around;
-    margin: 10px;
-}
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  

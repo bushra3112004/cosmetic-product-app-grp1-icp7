@@ -1,12 +1,15 @@
-.product-container{
-  height: 300px;
-  width: 200px;
-  display: flex;
-  justify-content: space-around;
-  margin: 10px;
+.product-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  position: relative;
 }
 
-.product-img{
-   height: 150px;
-   width: 180px;
+
+.product-info {
+  margin-top: 10px;
+}
+
+.rating {
+  color: gold;
 }

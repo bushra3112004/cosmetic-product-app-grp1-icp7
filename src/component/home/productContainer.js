@@ -1,23 +1,22 @@
-import "./productContainer.css"
+
 //rfce
-import React from 'react'
+import React from 'react';
+import './productContainer.css'; 
 
-function productContainer({productImg ,productName ,productPrice ,rating}) {
+const ProductContainer = ({ productImg, productName, productPrice, rating }) => {
   return (
-    
-    <div className="product-container ">
-            
-            <div >
-                <img src={productImg} className="product-img img-fluid" />
-            </div>
-            <div className="description-container">
-                <p className="product-name">{productName}</p> <br/>
-                <p className="product-price">{productPrice}</p> <br/>
-                <p className="product-rating">{rating}</p>
-            </div>
-        </div>
+    <div className="product-card">
       
-  )
-}
+      <img src={productImg} alt={productName} />
+      <div className="product-info">
+        <h2>{productName}</h2>
+        <p>{productPrice}</p>
+        <div className="rating">
+          {rating}
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default productContainer;
+export default ProductContainer;
