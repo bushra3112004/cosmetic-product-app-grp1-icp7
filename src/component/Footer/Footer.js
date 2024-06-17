@@ -1,5 +1,5 @@
 
-import logo from "./../../assets/logo.png"
+import logo from "./../../assets/logo.jpeg"
 import './Footer.css';
 import gmail from "./../Footer/footer-icon/gmail.png"
 import facebook from "./../Footer/footer-icon/facebook.png"

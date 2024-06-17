@@ -3,19 +3,21 @@
 /*  font-family: "Orbitron", sans-serif; */
 /* font-family: "Montserrat Alternates", sans-serif; */
 .logo{
-    height: 100px;
+    height: 80px;
     margin-left: 20px;
+    border-radius: 10px;
 }
 .navbar-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 80px;
     width: 100%;
+    background-color: whitesmoke;
     border-bottom: 1px solid rgba(99, 92, 92, 0.1);
     box-shadow: 0 0 10px gray;
     position: fixed;
-    z-index: 100;
+    z-index: 10;
    
 }
 
@@ -30,6 +32,7 @@
    
 }
 .nav-item{
+    font-size: 18px;
     text-decoration: none;
     padding: 0 20px;
     color: black;
@@ -41,7 +44,6 @@
     margin: 0 10px;
     background-color: tomato;
     text-decoration: none;
-   
     border: none;
     border-radius: 5px;
    
