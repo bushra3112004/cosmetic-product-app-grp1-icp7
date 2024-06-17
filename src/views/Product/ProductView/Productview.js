@@ -1,10 +1,11 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import './Productview.css'
 import Productdata from '../../../component/ProductCards/Productdata/Data';
 import ProductCards from '../../../component/ProductCards/ProductCards';
 import Navbar from '../../../component/Navbar/Navbar';
 import Star from './star.png'
+import Back from './back.png'
 function Productview() {
   const { id } = useParams();
   const selectCard = Productdata.find((cardObj) => cardObj.id === id);
@@ -15,6 +16,7 @@ function Productview() {
 
   return (
     <><Navbar/>
+    <Link to='/Product' className='back-btn'><img height={'50px'} src={Back}/></Link>
       <div className='main-view-container'>
         <div className='product-img-container'>
           <img className='product-img' src={selectCard.ProductImg} alt={selectCard.name} />
