@@ -48,7 +48,7 @@ label {
     font-weight: 500;
     font-family: "Playfair Display", serif;
     border: none;
-    border-radius: 5px;
+    border-radius: 0px;
     padding: 10px 50px;
     font-size: 20px;
     cursor: pointer;

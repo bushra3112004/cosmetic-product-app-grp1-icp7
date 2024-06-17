@@ -14,9 +14,9 @@
     background-color:#fddbc4;
     height: 750px;
     width: 580px;
-    margin: 10px 500px;
-    padding: 6px;
+    margin: 10px auto;
     display: block;
+    padding: 6px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
