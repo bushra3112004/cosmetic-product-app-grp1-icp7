@@ -28,7 +28,7 @@
     bottom: 34%;
 }
 .title-bg{
-    width: 1500px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -50,7 +50,6 @@
 .cosmetic-types-data-2-text{
     text-align: left;
     width: 650px;
-
 }
 
 .types-images{
@@ -80,7 +79,6 @@
     display: flex;
     flex-direction: row;
     margin-left: 180px;
-   
 }
 .section3-sub2-div{
     width: 180px;
@@ -101,6 +99,10 @@
   margin-left: 230px;
   margin-top: 30px;
 }
+.video{
+    width: 100%;
+    height: 480px;
+}
 .section5{
     margin-top: 40px;
 }
@@ -112,6 +114,9 @@
     flex-direction: row;
     margin-left: 20%;
 }
+.team-description{
+    width: 100%;
+}
 .btn-div{
     margin-top: 20px;
     margin-left: 20px;
@@ -122,4 +127,66 @@
     margin-top: 40px;
     justify-content: center;
     
+}
+
+@media screen and (max-width:400px){
+    .title-bg{
+        width: 100%;
+    }
+    .cosmetic-types-data{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .cosmetic-types-data-1{
+        margin: 5px;
+        padding: 10px;
+    }
+    .cosmetic-types-data-1-img{
+        width: 300px;
+    }
+    .cosmetic-types-data-2-text{
+        width: 100%;
+        text-align: center;
+    }
+    .types-images{
+        display: flex;
+        flex-direction: column;
+    }
+    .section3-description{
+        width: 100%;
+        margin-left: 5px;
+    }
+    .section3-sub2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .section4{
+        margin-left: 5px;
+    }
+    .video{
+        width: 100%;
+    }
+    .section5 h1{
+        margin-left: 28%;
+    }
+    .section5-1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .team-description{
+        width: 100%;
+        text-align: center;
+    }
+    .btn-div{
+        margin-left: 28%;
+    }
+    .team-img-div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 13%;
+    }
+
 }
