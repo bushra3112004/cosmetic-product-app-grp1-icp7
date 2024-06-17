@@ -37,8 +37,9 @@ function Footer() {
 
                 <div className="contact">
                     <p><b>CONTACT</b></p>
-                    <span>123, sarafa road PSK 3, 
-                    Nagpur , Maharashtra , India</span>
+                    <span> Lokmanya Nagar,
+                    Hingna Road, Hingna, Nagpur-440016</span>
+               
 
                     <div>
                         <img src={gmail} className='footer-icon' />
