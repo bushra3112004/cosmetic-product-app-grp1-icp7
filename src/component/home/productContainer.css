@@ -6,14 +6,17 @@
   width: 300px;
   border: 1px solid black;
 }
-.product-card :hover{
+/*.product-card :hover{
   box-shadow: inset 3px 3px 5px 1px #a3a3a3;
-}
+}*/
 
 .product-info {
   margin-top: 10px;
 }
 
 .rating {
-  color: gold;
+  color:#EAAA85;
+}
+.productImg{
+  width: 250px;
 }
