@@ -3,17 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+.body{
+    background-attachment: fixed;
+}
 
 .heading{
     font-size: 40px;
     text-align: center;
     color: #232323;
+    margin-top: 50px;
+    
 }
+
 .main-container{
     background-color:#fddbc4;
-    height: 750px;
+    height: 700px;
     width: 580px;
-    margin: 10px auto;
+    margin: 40px auto;
     display: block;
     padding: 6px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -93,12 +99,12 @@
         font-size: 15px;
     }
     .input-box{
-       width: 280px; 
+       width: 200px; 
        height: 35px;
 
     }
     .submit-btn{
-        width: 200px;
+        width: 150px;
         margin: 40px;
         margin-left: 50px;
         
@@ -107,13 +113,13 @@
         font-size: 15px;
     }
     .cancel-btn{
-        width: 90px;
+        width: 60px;
         height: 30px;
     
     }
     .psw{
-        font-size: 16px;
-        margin: 0px 40px;
+        font-size: 10px;
+        margin: 0px 18px;
         text-align: end;
         
     }

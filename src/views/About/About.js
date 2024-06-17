@@ -13,6 +13,7 @@ import TD from "./img/TD.jpeg"
 import SS from "./img/SS.jpeg"
 import SP from "./img/SP.jpeg"
 import BP from "./img/BP.jpeg"
+import PD from "./img/PD.jpeg"
 import { Link } from "react-router-dom"
 import { Toaster,toast } from "react-hot-toast"
 import Navbar from "./../../component/Navbar/Navbar"
@@ -84,12 +85,12 @@ function About() {
                 </div>
             </div>
             <div className="section4">
-                <iframe width="1000" height="480" src="https://www.youtube-nocookie.com/embed/NbVAgoJUb04?si=D3wTI4mTYFKqSw9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className="video" src="https://www.youtube-nocookie.com/embed/NbVAgoJUb04?si=D3wTI4mTYFKqSw9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div className="section5">
-                <h1 style={{color: theme.Heading}} className="headingFont">Our Team</h1>
+                <h1 style={{color: theme.Heading}} className="headingFont ">Our Team</h1>
                 <div className="section5-1">
-                    <div style={{color: theme.description, width:'700px'}}  className="descriptionFont">
+                    <div style={{color: theme.description}}  className="descriptionFont team-description">
                     Our team is the heart and soul of our company, bringing together a diverse group of dedicated professionals who are passionate about natural organic cosmetics. Each member of our team plays a vital role in our mission to create high-quality, sustainable products that enhance beauty and well-being.
                     </div>
                     <div className="btn-div">
@@ -119,15 +120,20 @@ function About() {
                         />
                     </div>
                     <div className="team-img-div">
-                         <TeamCard 
+                        <TeamCard 
                             TeamName="Tejas Dongare" 
                             TeamImage={TD}
                             TeamPosition="Product Manager"
                         />
-                         <TeamCard 
+                        <TeamCard 
                             TeamName="Shubhangi Pawar" 
                             TeamImage={SP}
                             TeamPosition="Service Manager"
+                        />
+                        <TeamCard 
+                            TeamName="Pranay Dandekar" 
+                            TeamImage={PD}
+                            TeamPosition="Office Head"
                         />
                 </div>
             </div>
