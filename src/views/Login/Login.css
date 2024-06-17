@@ -58,6 +58,7 @@
     width: 450px;
     height: 40px;
     border: 1px solid #ddd;
+    border-radius: 10px;
     background-color: rgb(150, 223, 150);
     color: black;
     font-size: 20px;
@@ -72,6 +73,7 @@
     width: 100px;
     height: 40px;
     border: 1px solid #ddd;
+    border-radius: 10px;
     background-color: rgb(241, 60, 60);
     margin: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -104,7 +106,7 @@
 
     }
     .submit-btn{
-        width: 150px;
+        width: 200px;
         margin: 40px;
         margin-left: 50px;
         
@@ -113,13 +115,13 @@
         font-size: 15px;
     }
     .cancel-btn{
-        width: 60px;
+        width: 90px;
         height: 30px;
     
     }
     .psw{
-        font-size: 10px;
-        margin: 0px 18px;
+        font-size: 15px;
+        margin: 0px 30px;
         text-align: end;
         
     }

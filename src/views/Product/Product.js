@@ -65,7 +65,7 @@ function Product() {
         <div className='pcardsContainers'>
           {
             filteredItems.map((item, i) => {
-              const { id, ProductImg, Title, Price } = item;
+              const { id, ProductImg, Title, Price,Categories } = item;
               return (
                 <ProductCards
                   key={i}
@@ -73,6 +73,7 @@ function Product() {
                   ProductImg={ProductImg}
                   Title={Title}
                   Price={Price}
+                  Categories={Categories}
                 />
               )
             })
@@ -103,10 +104,10 @@ function Product() {
           <button className='tag-btn'>Skincare</button>
           <button className='tag-btn'>Perfume</button>
           <hr />
-          <img className='banner2' src={banner2} alt="Banner 2" />
+          <img className='banner2 img-fluid' src={banner2} alt="Banner 2" />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

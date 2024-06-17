@@ -134,6 +134,11 @@
 @media screen and (max-width:400px){
     .title-bg{
         width: 100%;
+        margin-top: 24%;
+    }
+    .text-on-image{
+       left: 5%;
+        bottom: 10%;
     }
     .cosmetic-types-data{
         display: flex;
@@ -145,7 +150,7 @@
         padding: 10px;
     }
     .cosmetic-types-data-1-img{
-        width: 300px;
+        width: 260px;
     }
     .cosmetic-types-data-2-text{
         width: 100%;
@@ -169,6 +174,9 @@
     }
     .video{
         width: 100%;
+    }
+    .section5{
+        margin-left: 0px;
     }
     .section5 h1{
         margin-left: 28%;
