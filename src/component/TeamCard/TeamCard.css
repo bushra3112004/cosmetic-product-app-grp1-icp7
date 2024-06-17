@@ -5,7 +5,7 @@
 }
 .team-name-text{
     position: absolute;
-    left: 25%;
+    left: 22%;
  
 }
 .team-image{
@@ -22,5 +22,5 @@
     transition-duration: 2s;
 }
 .team-position-text{
-    margin-left: 26%;
+    margin-left: 82px;
 }
