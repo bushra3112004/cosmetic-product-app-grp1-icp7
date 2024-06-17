@@ -13,6 +13,7 @@ import TD from "./img/TD.jpeg"
 import SS from "./img/SS.jpeg"
 import SP from "./img/SP.jpeg"
 import BP from "./img/BP.jpeg"
+import PD from "./img/PD.jpeg"
 import { Link } from "react-router-dom"
 import { Toaster,toast } from "react-hot-toast"
 import Navbar from "./../../component/Navbar/Navbar"
@@ -119,15 +120,20 @@ function About() {
                         />
                     </div>
                     <div className="team-img-div">
-                         <TeamCard 
+                        <TeamCard 
                             TeamName="Tejas Dongare" 
                             TeamImage={TD}
                             TeamPosition="Product Manager"
                         />
-                         <TeamCard 
+                        <TeamCard 
                             TeamName="Shubhangi Pawar" 
                             TeamImage={SP}
                             TeamPosition="Service Manager"
+                        />
+                        <TeamCard 
+                            TeamName="Pranay Dandekar" 
+                            TeamImage={PD}
+                            TeamPosition="Office Head"
                         />
                 </div>
             </div>
