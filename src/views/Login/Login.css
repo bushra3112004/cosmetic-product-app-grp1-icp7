@@ -13,7 +13,7 @@
 
 .main-container{
     background-color:#fddbc4;
-    height: 700px;
+    height: 800px;
     width: 580px;
     margin: 40px auto;
     display: block;
@@ -39,16 +39,16 @@
 }
 
 .input-name{
-    font-size: 20px;
+    font-size: 25px;
     margin: 10px;
     margin-top: 10px;
 }
-.input-box{
-    width: 520px;
+.input-box1{
+    width: 500px;
     height: 40px;
     padding: 5px;
     margin: 6px;
-    font-size: 15px;
+    font-size: 19px;
 }
 .submit-btn{
     margin: 48px;
@@ -98,7 +98,7 @@
         font-size: 15px;
     }
     .input-box{
-       width: 200px; 
+       width: 150px; 
        height: 35px;
 
     }

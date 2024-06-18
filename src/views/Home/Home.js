@@ -10,7 +10,7 @@ import CategoryCard from '../../component/home/categoryCard';
 import { theme } from "./../../configData";
 import Button from '../../component/ButtonBox/ButtonBox';
 import Feature from "./../../component/home/feature"
-import Testimonial from "./../../component/home/testimonial"
+import TestimonialCards from "./../../component/home/testimonial"
 import ProductLayout from "./../../component/home/productLayout";
 import Navbar from "./../../component/Navbar/Navbar"
 import Footer from '../../component/Footer/Footer'
@@ -64,6 +64,22 @@ function Home() {
     <Testimonial />
     <Footer />
   </>
+
+   <CategoryCard catImg={Cat3} 
+      catName={<Button text="Hair Care"/> }/>
+   </div>
+   <div className='text-center mt-2'>
+    <span className='fs-1 headingFont'style={{color:theme.primaryColor}}>BEST SELLERS PRODUCTS</span> <br/>
+    <span className='fs-3 subHeadingFont'style={{color:theme.description,fontStyle: "italic"}} >The stylish and organized cosmetic products</span>
+  </div>
+  <ProductLayout/>
+  <Link to="./../Product">  <center className='explore-btn'><Button text="Explore More"/></center></Link>
+  <ProductFeature/>
+  <Feature/>
+  <TestimonialCards/>
+  <Footer/>
+    </>
+
   )
 }
 
