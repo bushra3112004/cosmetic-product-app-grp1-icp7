@@ -10,7 +10,7 @@ import CategoryCard from '../../component/home/categoryCard';
 import { theme } from "./../../configData";
 import Button from '../../component/ButtonBox/ButtonBox';
 import Feature from "./../../component/home/feature"
-import Testimonial from "./../../component/home/testimonial"
+import TestimonialCards from "./../../component/home/testimonial"
 import ProductLayout from "./../../component/home/productLayout";
 import Navbar from "./../../component/Navbar/Navbar"
 import Footer from '../../component/Footer/Footer'
@@ -43,7 +43,7 @@ function Home() {
   <Link to="./../Product">  <center className='explore-btn'><Button text="Explore More"/></center></Link>
   <ProductFeature/>
   <Feature/>
-  <Testimonial/>
+  <TestimonialCards/>
   <Footer/>
     </>
   )
