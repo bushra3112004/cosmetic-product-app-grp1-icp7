@@ -14,7 +14,7 @@ function Signup() {
 
             <div className="sign-in-form-container">
 
-                <h1 className="sign-in-text">Sign in</h1>
+                <h1 className="sign-in-text">Sign Up</h1>
 
                 <div className="sign-in-logo-img-container">
                     <img src={gmail} className="sign-logo-img" />
@@ -37,7 +37,7 @@ function Signup() {
                 </div>
 
                 <div>
-                    <button className="sign-in-page-btn">Sign in</button>
+                    <button className="sign-in-page-btn">Sign up</button>
                 </div>
             </div>
         </div>
