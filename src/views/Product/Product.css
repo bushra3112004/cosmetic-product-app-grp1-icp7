@@ -64,7 +64,7 @@
     padding: 0px 20px;
 }
 .banner2{
-    height: 15%;
+    height: 12%;
     margin-bottom: 30px;
 }
 .banner33{
@@ -125,9 +125,25 @@ ul{
     padding: 10px;
     margin: 10px;
 }
+@media screen and (max-width:1250px){
+    .banner2{
+        height: 8%;
+    }
+    .banner33{
+        height: 8%;
+    }
+}
 @media screen and (max-width:1000px) {
     .main-div{
         display: block;
+    }
+    .banner2{
+        display: none;
+    }
+    .banner33{
+        height: 5%;
+        width: 20%;
+        margin: 20px;
     }
     /* .Clist{
         display: flex;
