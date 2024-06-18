@@ -32,7 +32,7 @@
 .text-overlay {
     position: absolute;
     top: 50%;
-    left:380px;
+    left:360px;
     transform: translate(-50%, -50%);
     color: white;
     background-color: rgba(0, 0, 0, 0.5); 
@@ -42,7 +42,7 @@
     
 }
 .text-container {
-    width: 700px; 
+    width: 600px; 
     height: 470px; 
     border: 1px solid #000; 
     flex-direction: column;

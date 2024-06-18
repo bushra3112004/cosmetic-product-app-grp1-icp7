@@ -8,13 +8,14 @@
 }
 
 .feature-image img {
-    width: 400px;
+    width: 100%;
     height: auto;
     margin-right: 20px;
 }
 
 .feature-text {
     max-width: 600px;
+    padding-left: 10px;
 }
 
 .feature-title {
