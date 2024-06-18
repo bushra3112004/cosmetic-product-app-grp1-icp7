@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+import React from 'react'
 import "./banner.css"
 import mainbanner from "./../../views/Home/homeImg/banner3-img.png";
 import { theme } from "./../../configData";
@@ -9,7 +11,7 @@ const banner = ()=>{
                < div className="description-container   ">
              <h1 style={{color: theme.primaryColor}} className="p-3 headingFont">Discover Your True Beauty </h1>
               <h5 style={{color: theme.description,fontStyle: "italic"}} className="p-2 descriptionFont">Popularized through customer relationships with some of the world’s most recognizable faces, the “brow revolution” she ignited has become a landmark</h5> 
-             <Button text="Discover"  />   
+              <Link to="./../Product" >  <Button text="Discover"  />  </Link> 
               </div> 
          </div>
       

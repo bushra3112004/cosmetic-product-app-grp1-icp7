@@ -1,4 +1,37 @@
-import "./productLayout.css"
+import {Link} from "react-router-dom"
+import React from 'react';
+import ProductList from "./productList";
+import ProductContainer from './productContainer';
+
+const productLayout= () => {
+  return (
+    <div className="product-list row">
+      {ProductList.map((productObject, i) => {
+        const { productImg, 
+            productName,
+             productPrice,
+              rating } = productObject
+        
+        return (
+           <ProductContainer
+            key={i}
+            productImg={productImg}
+            productName={productName}
+            productPrice={productPrice}
+            rating={rating}
+        
+          />
+        )
+      })}
+    </div>
+  )
+}
+
+export default productLayout;
+
+
+
+/*import "./productLayout.css"
 import ProductList from "./productList";
 import ProductContainer from "./productContainer";
 
@@ -34,7 +67,8 @@ function productLayout(){
     )
 
 }
-export default productLayout
+export default productLayout*/
+ 
 /*const productLayout = ({productImg , rating , productName ,productPrice })=>{
     
         
