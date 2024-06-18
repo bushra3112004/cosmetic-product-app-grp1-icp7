@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
-import {Link} from "react-router-dom"
-import { Toaster,toast } from "react-hot-toast"
+import { Link } from "react-router-dom"
+import { Toaster, toast } from "react-hot-toast"
 import Cat1 from "./homeImg/skinCare2.jpg"
 import Cat2 from "./homeImg/meakUp.jpg"
 import Cat3 from "./homeImg/hairCare.jpg"
@@ -14,6 +14,8 @@ import TestimonialCards from "./../../component/home/testimonial"
 import ProductLayout from "./../../component/home/productLayout";
 import Navbar from "./../../component/Navbar/Navbar"
 import Footer from '../../component/Footer/Footer'
+import ProductCards from '../../component/ProductCards/ProductCards';
+import Productdata from './../../component/ProductCards/Productdata/Data';
 import ProductFeature from '../../component/home/productFeature'
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,15 +24,46 @@ function Home() {
     toast.success("Page loaded successfully!! 🎯😜");
   }, []);
   return (<>
-  <Toaster />
-   <Navbar/>
-   <Banner/>
-   <div className=' row mx-3 '>
-    <CategoryCard catImg={Cat1} 
-      catName={<Button text="Skin Care" /> } />
+    <Toaster />
+    <Navbar />
+    <Banner />
+    <div className=' row mx-3 '>
+      <CategoryCard catImg={Cat1}
+        catName={<Button text="Skin Care" />} />
 
-   <CategoryCard catImg={Cat2} 
-      catName={<Button text="Make Up"/> } />
+      <CategoryCard catImg={Cat2}
+        catName={<Button text="Make Up" />} />
+
+      <CategoryCard catImg={Cat3}
+        catName={<Button text="Hair Care" />} />
+    </div>
+    <div className='text-center mt-2'>
+      <span className='fs-1 headingFont' style={{ color: theme.primaryColor }}>BEST SELLERS PRODUCTS</span> <br />
+      <span className='fs-3 subHeadingFont' style={{ color: theme.description, fontStyle: "italic" }} >The stylish and organized cosmetic products</span>
+    </div>
+    <div className='pcardsContainers3'>
+      {
+        Productdata.map((item, i) => {
+          const { id, ProductImg, Title, Price, Categories } = item;
+          return (
+            <ProductCards
+              key={i}
+              id={id}
+              ProductImg={ProductImg}
+              Title={Title}
+              Price={Price}
+              Categories={Categories}
+            />
+          )
+        })
+      }
+    </div>
+    <Link to="./../Product">  <center className='explore-btn'><Button text="Explore More" /></center></Link>
+    <ProductFeature />
+    <Feature />
+    <Testimonial />
+    <Footer />
+  </>
 
    <CategoryCard catImg={Cat3} 
       catName={<Button text="Hair Care"/> }/>
@@ -46,6 +79,7 @@ function Home() {
   <TestimonialCards/>
   <Footer/>
     </>
+
   )
 }
 

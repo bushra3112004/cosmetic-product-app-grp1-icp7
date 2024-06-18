@@ -12,6 +12,19 @@
     font-style: italic;
     font-size: 23px;
 }
+.pcardsContainers3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    /* background-color: #f7f7f7;
+    border: 1px solid #ddd; */
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
 .descriptionFont{
     font-family: "Barlow", sans-serif;
     font-weight: 400;
