@@ -23,7 +23,8 @@ function Home() {
   useEffect(() => {
     toast.success("Page loaded successfully!! 🎯😜");
   }, []);
-  return (<>
+  return (
+  <>
   <Toaster />
    <Navbar/>
    <Banner/>
