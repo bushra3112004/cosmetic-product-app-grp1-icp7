@@ -1,6 +1,6 @@
 
 .cat-img{
-    height: 350px;
+    height: 400px;
     border: 1px black solid;
     border-radius: 20px;
     opacity: 70%;
@@ -16,6 +16,6 @@
 .cat-name{
     margin: 60px;
     position:absolute;
-    top:60px;
+    top:90px;
     left:90px;
 }

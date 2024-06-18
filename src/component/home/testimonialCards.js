@@ -6,7 +6,7 @@ import { theme } from '../../configData'
 function testimonialCards({clientName , clientSay}) {
   return (
     <div class="image-container">
-    <img src={Background} alt="Image"/>
+    <img src={Background} alt="Image" className='test-img'/>
     <div class="text-container text-overlay d-flex ">
       <p className='headingFont fs-3' style={{color:theme.primaryColor}}> Testimonials</p> 
       <p className='subHeadingFont fs-5'> What Our Clients Say</p>
