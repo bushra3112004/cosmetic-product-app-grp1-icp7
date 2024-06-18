@@ -12,18 +12,21 @@
     font-style: italic;
     font-size: 23px;
 }
-.pcardsContainers3{
+/*.outer-conatiner{
     display: flex;
+}
+.pcardsContainers3{
+   flex-direction: row;
     flex-wrap: wrap;
     padding: 10px;
-    /* justify-content: center;
-    align-items: center; */
+     justify-content: space-around;
+    align-items: center; 
     width: 100%;
     /* background-color: #f7f7f7;
     border: 1px solid #ddd; */
-    border-radius: 10px;
+  /*  border-radius: 10px;
     margin-bottom: 10%;
-}
+}*/
 
 .descriptionFont{
     font-family: "Barlow", sans-serif;
