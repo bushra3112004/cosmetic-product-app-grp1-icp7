@@ -31,12 +31,12 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    margin-top: 5%;
 }
 .cosmetic-types-data{
     display: flex;
     flex-direction: row;
-    margin: 150px;
+    margin: 140px;
 }
 .cosmetic-types-data-1{
    border:  1px solid gray;

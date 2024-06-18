@@ -1,4 +1,7 @@
 import React from 'react'
+import { useEffect } from 'react';
+import {Link} from "react-router-dom"
+import { Toaster,toast } from "react-hot-toast"
 import Cat1 from "./homeImg/skinCare2.jpg"
 import Cat2 from "./homeImg/meakUp.jpg"
 import Cat3 from "./homeImg/hairCare.jpg"
@@ -15,7 +18,11 @@ import ProductFeature from '../../component/home/productFeature'
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 function Home() {
+  useEffect(() => {
+    toast.success("Page loaded successfully!! 🎯😜");
+  }, []);
   return (<>
+  <Toaster />
    <Navbar/>
    <Banner/>
    <div className=' row mx-3 '>
@@ -32,11 +39,11 @@ function Home() {
     <span className='fs-1 headingFont'style={{color:theme.primaryColor}}>BEST SELLERS PRODUCTS</span> <br/>
     <span className='fs-3 subHeadingFont'style={{color:theme.description,fontStyle: "italic"}} >The stylish and organized cosmetic products</span>
   </div>
-  <div className='explore-btn'><Button text="Explore More"/></div>
+  <ProductLayout/>
+  <Link to="./../Product">  <center className='explore-btn'><Button text="Explore More"/></center></Link>
+  <ProductFeature/>
   <Feature/>
   <Testimonial/>
-  <ProductFeature/>
-  <ProductLayout/>
   <Footer/>
     </>
   )

@@ -1,12 +1,40 @@
-.product-container{
-  height: 300px;
-  width: 200px;
-  display: flex;
-  justify-content: space-around;
-  margin: 10px;
+.product-card {
+  padding: 20px;
+  margin: 25px 10px;
+  text-align: center;
+  position: relative;
+  width: 320px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.prod-card{
+  margin:10px 10px;
+  justify-content:space-around;
+}
+.product-card:hover{
+  box-shadow: inset 3px 3px 5px 1px #a3a3a3;
+  transition: 2s;
 }
 
-.product-img{
-   height: 150px;
-   width: 180px;
+.product-info {
+  margin-top: 10px;
+}
+
+.rating {
+  color:#EAAA85;
+}
+.productImg{
+  width: 250px;
+  height: 250px;
+  opacity: .7;
+}
+.productImg:hover{
+  opacity: 1;
+}
+
+h3{
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 15px;
+  font-style: normal;
 }
