@@ -17,7 +17,7 @@
 }
 .image-container {
     position: relative;
-    display: inline-block;
+   display: inline-block;
 }
 
 .image-container img {
@@ -32,7 +32,7 @@
 .text-overlay {
     position: absolute;
     top: 50%;
-    left:360px;
+    left:320px;
     transform: translate(-50%, -50%);
     color: white;
     background-color: rgba(0, 0, 0, 0.5); 
