@@ -8,6 +8,7 @@ import Login from "./views/Login/Login"
 import Productview from "./views/Product/ProductView/Productview"
 import Navbar from "./component/Navbar/Navbar"
 import Footer from "./component/Footer/Footer"
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 
