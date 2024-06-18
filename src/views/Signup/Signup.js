@@ -4,12 +4,13 @@ import facebook from "./signup-icon/facebook.png"
 import twitter from "./signup-icon/twitter.png"
 import signupimage from "./signup-icon/banner3-img.png"
 import toast, { Toaster } from 'react-hot-toast'
+import Navbar from "../../component/Navbar/Navbar"
+import Footer from "../../component/Footer/Footer"
 
 function Signup() {
     return (
     <>
-    
-
+    <Navbar/>
         <div className="sign-in-container">
 
             <img src={signupimage} className="sign-in-tiger-img" />
@@ -26,15 +27,9 @@ function Signup() {
 
                 <div className="sign-form-container">
                     <form>
-
                         <input type="text" placeholder="Name" className="input-box" />
-
-
                         <input type="email" placeholder="Email" className="input-box" />
-
                         <input type="password" placeholder="password" className="input-box" />
-
-
                     </form>
                 </div>
 
@@ -42,7 +37,6 @@ function Signup() {
                     <button type="submit" className="signup-btn"
                      onClick={
                         () => {
-      
                           toast.success("You are  Successfully sign up!")
                         }
                       }>Sign up</button>
@@ -50,6 +44,7 @@ function Signup() {
             </div>
         </div>
         <Toaster/> 
+        <Footer/>
     </>
    
 

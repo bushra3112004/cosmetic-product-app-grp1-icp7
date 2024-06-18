@@ -4,7 +4,7 @@
     justify-content: center;
     height: 500px;
     justify-content: space-evenly;
-    padding: 50px;
+    padding: 40px;
     margin: 100px auto;
    
     
@@ -49,6 +49,7 @@
 
 .sign-logo-img{
     height: 22px;
+    cursor: pointer;
    
 }
 
