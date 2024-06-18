@@ -5,43 +5,35 @@ import banner2 from './banner2.jpg';
 import Footer from './../../component/Footer/Footer';
 import Navbar from './../../component/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Toaster,toast } from "react-hot-toast"
 import ButtonBox from "./../../component/ButtonBox/ButtonBox";
 import ProductCards from '../../component/ProductCards/ProductCards';
 import Productdata from './../../component/ProductCards/Productdata/Data';
 
 function Product() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedFilters, setSelectedFilters] = useState([]);
-  const [filteredItems, setFilteredItems] = useState(Productdata);
+  const [filteredData, setFilteredData] = useState(Productdata);
 
-  let filters = ["Makeup", "Skin", "Hair", "Bath & Body"];
-
-  const handleFilterButtonClick = (selectedCategory) => {
-    if (selectedFilters.includes(selectedCategory)) {
-      let filters = selectedFilters.filter((el) => el !== selectedCategory);
-      setSelectedFilters(filters);
+  const filterResults = (catItm) => {
+    if (catItm === "All") {
+      setFilteredData(Productdata);
     } else {
-      setSelectedFilters([...selectedFilters, selectedCategory]);
+      const result = Productdata.filter((curData) => curData.Categories === catItm);
+      setFilteredData(result);
     }
-  };
+  }
 
   useEffect(() => {
-    filterItems();
-  }, [selectedFilters, searchTerm]);
-
-  const filterItems = () => {
-    let tempItems = [...Productdata];
-
-    if (selectedFilters.length > 0) {
-      tempItems = tempItems.filter((item) => selectedFilters.includes(item.Categories));
-    }
-
-    if (searchTerm) {
-      tempItems = tempItems.filter((val) => val.Title && val.Title.toLowerCase().includes(searchTerm.toLowerCase()));
-    }
-
-    setFilteredItems(tempItems);
-  };
+    const result = Productdata.filter((val) => {
+      if (searchTerm === "") {
+        return true;
+      } else if (val.Title.toLowerCase().includes(searchTerm.toLowerCase())) {
+        return true;
+      }
+      return false;
+    });
+    setFilteredData(result);
+  }, [searchTerm]);
 
   return (
     <>
@@ -61,11 +53,10 @@ function Product() {
       <hr />
 
       <div className='main-div'>
-
         <div className='pcardsContainers'>
           {
-            filteredItems.map((item, i) => {
-              const { id, ProductImg, Title, Price,Categories } = item;
+            filteredData.map((item, i) => {
+              const { id, ProductImg, Title, Price, Categories } = item;
               return (
                 <ProductCards
                   key={i}
@@ -85,15 +76,11 @@ function Product() {
             <li><h1 className='Sub-title'>Categories..</h1></li>
             <li>
               <ul type='circle'>
-                {filters.map((category, i) => (
-                  <li
-                    onClick={() => handleFilterButtonClick(category)}
-                    className={`list-2 `}
-                   
-                  >
-                    {category}
-                  </li>
-                ))}
+                <li className={`list-2`} onClick={() =>{ filterResults('All'); toast.success('All Products Load Succesfully');}}>All</li>
+                <li className={`list-2`} onClick={() =>{ filterResults('Makeup'); toast.success('Makeup Category Products Loded Succesful')}}>Makeup</li>
+                <li className={`list-2`} onClick={() =>{ filterResults('Skin'); toast.success('SkinCare Category Products Loded Succesful')}}>Skincare</li>
+                <li className={`list-2`} onClick={() =>{ filterResults('Hair'); toast.success('Hair Category Products Loded Succesful')}}>Hair</li>
+                <li className={`list-2`} onClick={() =>{ filterResults('Body & Bath'); toast.success('Body & Bath Category Products Loded Succesful')}}>Body & Bath</li>
               </ul>
             </li>
           </ul>
@@ -107,7 +94,8 @@ function Product() {
           <img className='banner2 img-fluid' src={banner2} alt="Banner 2" />
         </div>
       </div>
-      {/* <Footer /> */}
+      <Toaster/>
+      <Footer />
     </>
   );
 }

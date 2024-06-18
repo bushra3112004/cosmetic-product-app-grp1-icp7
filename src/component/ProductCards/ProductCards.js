@@ -6,7 +6,7 @@ import ButtonBox from "./../../component/ButtonBox/ButtonBox"
 function ProductCards({ id, ProductImg, Title, Price,Categories }) {
   return (<>
     <Toaster />
-      <Link className="ProductCard" onClick={() => toast('Page is loded Succesfully ✅✔️')} to={`/Product/Productview/${id}`}>
+      <Link className="ProductCard" onClick={() => toast.success('Page is loded Succesfully')} to={`/Product/Productview/${id}`}>
         <div className="image">
           <img   className="Productimg img-fluid" src={ProductImg} alt={Title} />
         </div>

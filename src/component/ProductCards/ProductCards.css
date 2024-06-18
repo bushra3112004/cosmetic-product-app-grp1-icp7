@@ -25,7 +25,9 @@
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 12px;
-    margin: 10px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 70%;
     cursor: pointer;
     transition: 0.5s;
     background-color: #d7d6d6;

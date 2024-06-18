@@ -15,11 +15,24 @@
     transition: .8s;
     cursor:pointer;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 2px double  #aaa;
+}
+.back-btn{
+    position: fixed;
+    top: 50%;
+    left: 50px;
+    font-size: 30px;
+    cursor:pointer;
+    transition: .8s;
+    }
+    .back-btn:hover{
+        left: 30px;
+        height: 30px;
+
 }
 .product-img:hover{
     box-shadow: 10px 10px 15px 5px #aaa;
-    border: 2px solid #aaa;
+    border: 1px double #ddd;
 }
 .product-img-container{
     display: block;
