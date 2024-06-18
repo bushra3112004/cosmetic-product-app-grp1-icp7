@@ -35,6 +35,7 @@
     padding: 10px;
     border-radius: 5px; 
     font-size: 20px;
+    
 }
 .text-container {
     width: 700px; 
@@ -63,12 +64,16 @@
     .text-overlay {
         left: 50%;
         font-size: 18px; 
-        padding: 8px; 
+        padding: 5px;
+        margin: -157px 0px; 
     }
 
     .text-container {
         width: 90%; 
         height: auto; 
         font-size: 18px; 
+    }
+    .test-img {
+        visibility: hidden;
     }
 }
