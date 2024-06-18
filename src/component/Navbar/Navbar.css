@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     height: 80px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color:#F5E0D2 ;
     border-bottom: 1px solid rgba(99, 92, 92, 0.1);
     box-shadow: 0 0 10px gray;
     position: fixed;
@@ -22,9 +22,16 @@
     z-index: 10;
     font-family: "Merriweather", serif; 
 }
+.logo-container{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .menuicon{
-    height: 30px;
-    display: none;
+    height: 25px; 
+    margin-left: 40px;
+     
 }
 .nav-item-container{
     
@@ -41,21 +48,39 @@
     font-weight: bold;
 }
 .sign-up{
-    color: #fff;
+    color: black;
     width:50px;
     padding: 10px 20px;
     margin: 0 10px;
-    background-color: tomato;
+   background-color: rgb(150, 223, 150);
     text-decoration: none;
     border: none;
-    border-radius: 5px;
-   
+    border-radius: 10px;
+    border: 2px solid rgb(62, 146, 62);
+    font-weight: bold;
+  
+}
+.sign-up:hover{
+    box-shadow: 0 0 10px gray;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1300px){
+    .menuicon{
+       
+        display: none; 
+    }
+
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px){
   
     .sign-up{
         padding: 7px 15px;
+    }
+    .menuicon{
+       
+        display: none; 
     }
 }
 
@@ -82,6 +107,11 @@
         font-size: 16px;
         
     }
+    .menuicon{
+       
+        display: none; 
+    }
+
 
 }
 
@@ -107,15 +137,24 @@
     }
     .nav-item{
         font-size: 15px;
-        
+    }
+    .menuicon{
+       
+        display: none; 
     }
 }
-@media screen and (min-width: 400px) and (max-width: 499px){
+@media screen and (max-width: 500px) {
+
     
     .logo{
         height: 45px;
        
     }
+    .menuicon{
+    height: 30px;
+    
+    
+}
 
     .navbar-container{
       
@@ -129,5 +168,7 @@
         padding: 5px 8px;
         font-size:13px;
     }
+   
+
    
 }
