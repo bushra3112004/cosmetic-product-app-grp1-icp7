@@ -3,7 +3,7 @@ import { theme } from "../../configData"
 
 function Button({text}) {
   return (
-    <button className="btn" style={{backgroundColor: theme.secondaryColor, color: theme.Heading}}>
+    <button className="butn" style={{backgroundColor: theme.secondaryColor, color: theme.Heading}}>
         {text}
     </button>
   )
