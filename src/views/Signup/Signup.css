@@ -4,18 +4,17 @@
     justify-content: center;
     height: 500px;
     justify-content: space-evenly;
-    padding: 50px;
-    margin: 100px auto;
-   
+    padding: 30px;
+    margin: 100 auto; 
     
+
+  
 }
 .sign-in-container:hover{
-   box-shadow: 0 0 gray;
-   
-    
+   box-shadow: 0 0 gray;   
 }
 
-.sign-in-tiger-img{
+.signup-img{
     height: 450px;
     width: 480px;
     border-radius: 30px;
@@ -30,6 +29,7 @@
     background-color:#fddbc4;
     border-radius: 20px;
     margin-left:-270px;
+    position: relative;
 
 
 }
@@ -50,6 +50,7 @@
 
 .sign-logo-img{
     height: 22px;
+    cursor: pointer;
    
 }
 
@@ -60,6 +61,8 @@
     margin: 15px auto;
     padding: 30px;
     border-radius: 10px;
+   
+
 }
 
 
@@ -71,12 +74,57 @@
     margin:20px auto;
 }
 
-.sign-in-page-btn{
-    margin-left: 180px;
+.signup-btn{
+
+   display: block;
+   margin: 30px auto;
    align-items: center;
-   background-color: rgb(112, 227, 112);
+   background-color:rgb(150, 223, 150);
    padding: 7px 25px;
    border-radius: 10px;
    border: 2px solid rgb(15, 72, 15);
+   font-weight: bold;
 
 }
+.signup-btn:hover{
+    box-shadow: 0 0 10px gray;
+  
+ }
+
+ @media screen and (max-width:600px){
+    .signup-img{
+    
+        display: none;
+       
+    }
+    
+    
+    .sign-in-form-container{
+        height: 400px;
+        width: 90%;
+        background-color:#fddbc4;
+        border-radius: 20px;
+        margin-left:0;
+        position: relative;
+       
+    
+    
+    }
+    .sign-form-container{
+        width: 90%;
+        height: 220px;
+        margin: 20px auto;
+    
+    }
+    
+.input-box{
+    height: 30px;
+    width: 90%;
+    border-radius: 5px;
+    margin:8px auto;
+}
+.signup-btn{
+    padding: 5px 30px;
+    font-size: 15px;
+ }
+ }

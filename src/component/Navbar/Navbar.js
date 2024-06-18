@@ -18,12 +18,11 @@ function Navbar() {
 
   return (<>
     <div className={"navbar-container " } >
-   
+    <div className='logo-container'>
         <img src={logo} className='logo'/>
 
-        <div className='menu-icon'>
+       
           <img src={menuicon} className='menuicon'/>
-
           </div>
        
         
