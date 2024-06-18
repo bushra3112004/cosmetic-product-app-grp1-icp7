@@ -33,6 +33,37 @@
     margin-left: 40px;
      
 }
+/* for small size */
+.menu-icon-container{
+    height: 250px;
+    background-color: gray;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+     justify-content: space-evenly;
+    padding-left: 20px;
+}
+.menu-navbar-item{
+    color: white;
+    text-decoration: none;
+
+}
+.menu-sign-up {
+    color: black;
+    width:100px;
+    font-size: 15px;
+    padding: 5px 15px;
+   background-color: rgb(150, 223, 150);
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid rgb(62, 146, 62);
+    font-weight: bold;
+}
+/*    */
 .nav-item-container{
     
     display: flex;
@@ -64,11 +95,15 @@
     box-shadow: 0 0 10px gray;
 }
 
-@media screen and (min-width: 993px) and (max-width: 1300px){
+@media screen and (min-width: 993px) and (max-width: 1400px){
     .menuicon{
        
         display: none; 
     }
+    .menu-icon-container{
+       display: none;
+    }
+    
 
 
 }
@@ -82,6 +117,9 @@
        
         display: none; 
     }
+    .menu-icon-container{
+        display: none;
+     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px){
@@ -111,6 +149,9 @@
        
         display: none; 
     }
+    .menu-icon-container{
+        display: none;
+     }
 
 
 }
@@ -142,17 +183,26 @@
        
         display: none; 
     }
+    .menu-icon-container{
+        display: none;
+     }
 }
 @media screen and (max-width: 500px) {
 
     
     .logo{
         height: 45px;
+         position: fixed;
+        left:10px;
+       top: 5px;
+        
        
     }
     .menuicon{
     height: 30px;
-    
+    position: fixed;
+    right:20px;
+    top: 20px;
     
 }
 
@@ -165,8 +215,10 @@
     }
   
     .sign-up{
-        padding: 5px 8px;
-        font-size:13px;
+       display: none;
+    }
+    .navbar-container{
+        height: auto;
     }
    
 
