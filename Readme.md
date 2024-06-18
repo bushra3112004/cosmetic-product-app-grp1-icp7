@@ -50,4 +50,8 @@ We welcome contributions from the community to help us expand and improve this h
 
 ---
 ## Contributors
+<a href="https://github.com/bushra3112004/cosmetic-product-app-grp1-icp7/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=bushra3112004/cosmetic-product-app-grp1-icp7" />
+</a>
 
+Made with [contrib.rocks](https://contrib.rocks).
