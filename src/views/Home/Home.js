@@ -1,5 +1,7 @@
 import React from 'react'
+import { useEffect } from 'react';
 import {Link} from "react-router-dom"
+import { Toaster,toast } from "react-hot-toast"
 import Cat1 from "./homeImg/skinCare2.jpg"
 import Cat2 from "./homeImg/meakUp.jpg"
 import Cat3 from "./homeImg/hairCare.jpg"
@@ -16,7 +18,11 @@ import ProductFeature from '../../component/home/productFeature'
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 function Home() {
+  useEffect(() => {
+    toast.success("Page loaded successfully!! 🎯😜");
+  }, []);
   return (<>
+  <Toaster />
    <Navbar/>
    <Banner/>
    <div className=' row mx-3 '>
