@@ -24,7 +24,7 @@ function Login() {
               type="text"
               placeholder="Enter Username"
               name="uname"
-              className="input-box"
+              className="input-box1"
             />
           </label>
           <br />
@@ -35,7 +35,7 @@ function Login() {
               type="password"
               placeholder="Enter Password"
               name="psw"
-              className="input-box"
+              className="input-box1"
             />
           </label>
           <br />
