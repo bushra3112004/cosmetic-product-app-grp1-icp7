@@ -14,18 +14,20 @@
 }
 /*.outer-conatiner{
     display: flex;
-}
-.pcardsContainers3{
-   flex-direction: row;
+}*/
+  /*.pcardsContainers3{
+ flex-direction: row;
     flex-wrap: wrap;
     padding: 10px;
      justify-content: space-around;
     align-items: center; 
     width: 100%;
-    /* background-color: #f7f7f7;
-    border: 1px solid #ddd; */
-  /*  border-radius: 10px;
+     background-color: #f7f7f7;
+    border: 1px solid #ddd; 
+    border-radius: 10px;
     margin-bottom: 10%;
+    height: 100px;
+    overflow: hidden;
 }*/
 
 .descriptionFont{
