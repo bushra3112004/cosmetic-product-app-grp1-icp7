@@ -27,8 +27,9 @@ function Home() {
   <>
   <Toaster />
    <Navbar/>
+   <div className='home-body'>
    <Banner/>
-   <div className=' row mx-3 '>
+   <div className=' row mx-3 ms-2'>
     <CategoryCard catImg={Cat1} 
       catName={<Button text="Skin Care" /> } />
 
@@ -66,6 +67,7 @@ function Home() {
   <ProductFeature/>
   <Feature/>
   <TestimonialCards/>
+  </div>
   <Footer/>
     </>
   )
