@@ -75,7 +75,7 @@ function Product() {
           <ul type='none'>
             <li><h1 className='Sub-title'>Categories..</h1></li>
             <li>
-              <ul type='circle'>
+              <ul className='Clist' type='circle'>
                 <li className={`list-2`} onClick={() =>{ filterResults('All'); toast.success('All Products Load Succesfully');}}>All</li>
                 <li className={`list-2`} onClick={() =>{ filterResults('Makeup'); toast.success('Makeup Category Products Loded Succesful')}}>Makeup</li>
                 <li className={`list-2`} onClick={() =>{ filterResults('Skin'); toast.success('SkinCare Category Products Loded Succesful')}}>Skincare</li>
@@ -85,12 +85,14 @@ function Product() {
             </li>
           </ul>
           <hr />
+          <div className='tag-div'>
           <h1 className='Sub-title'>Product Tags..</h1>
           <button className='tag-btn'>Cosmetics</button>
           <button className='tag-btn'>Facecare</button>
           <button className='tag-btn'>Skincare</button>
           <button className='tag-btn'>Perfume</button>
           <hr />
+          </div>
           <img className='banner2 img-fluid' src={banner2} alt="Banner 2" />
         </div>
       </div>
