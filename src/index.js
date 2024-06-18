@@ -8,6 +8,8 @@ import Login from "./views/Login/Login"
 import Productview from "./views/Product/ProductView/Productview"
 import Navbar from "./component/Navbar/Navbar"
 import Footer from "./component/Footer/Footer"
+import Signup from "./views/Signup/Signup"
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -47,6 +49,10 @@ const router =createBrowserRouter([
 {
    path:"/footer",
    element:<Footer/>
+},
+{
+   path:"/signup",
+   element:<Signup/>
 }
 
   
