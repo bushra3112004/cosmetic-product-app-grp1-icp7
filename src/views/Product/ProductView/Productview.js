@@ -6,6 +6,7 @@ import ProductCards from '../../../component/ProductCards/ProductCards';
 import Navbar from '../../../component/Navbar/Navbar';
 import Star from './star.png'
 import Back from './back.png'
+import Footer from './../../../component/Footer/Footer'
 
 function Productview() {
   const { id } = useParams();
@@ -97,6 +98,7 @@ function Productview() {
           })
         }
       </div>
+      <Footer/>
     </>
   );
 }
