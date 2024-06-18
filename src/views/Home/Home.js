@@ -23,6 +23,7 @@ function Home() {
   useEffect(() => {
     toast.success("Page loaded successfully!! 🎯😜");
   }, []);
+  const limitedData = Productdata.slice(0, 8);
   return (
   <>
   <Toaster />
@@ -44,8 +45,10 @@ function Home() {
     <span className='fs-3 subHeadingFont'style={{color:theme.description,fontStyle: "italic"}} >The stylish and organized cosmetic products</span>
   </div>
   <div className='pcardsContainers3 row mt-4'>
+  
       {
-        Productdata.map((item, i) => {
+      
+        limitedData.map((item, i) => {
           const { id, ProductImg, Title, Price, Categories } = item;
           return (
             <div className='col-lg-3 col-md-6 col-xs-12'>
