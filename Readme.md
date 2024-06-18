@@ -4,36 +4,40 @@
 # Project-Title:  COSMETIC PRODUCT APP 
 
 ---
-Welcome to COSMETIC PRODUCT APP Project . ** 
-COSMETIC PRODUCT APP** ,where dreams unfold into seamless celebrations.Bringing out the beauty in you !
+Welcome to COSMETIC PRODUCT APP Project . 
+**COSMETIC PRODUCT APP** ,where you will get to know the every product detailed information.
+Popularized through customer relationships with some of the world’s most recognizable faces.
 
 This Project is simply made by using ReactJS. Weather you are Beginner Student to coding or Web Development this repository will be your go to resource for HTML, CSS and ReactJS.
 
 ---
 ## Features
-1. Natural and Organic Ingredients
-2. Eco-Friendly Packaging
-3. Dermatologically Tested
-4. Transparent Ingredient 
+1. High Quality Products
+2. Natural and Organic Ingredients
+3. Eco-Friendly Packaging
+4. Dermatologically Tested
 5. Comprehensive Skincare
-6. Customizable Routines
 ---
 ### Home Page
-![Home Page](./img/home1.png)
----
-![Home Page](./img/home2.png)
----
-![Home Page](./img/home3.png)
+![Home Page](./WebOutputs/Home1.png)
+![Home Page](./WebOutputs/Home2.png)
+![Home Page](./WebOutputs/Home3.png)
+![Home Page](./WebOutputs/Home4.png)
+![Home Page](./WebOutputs/Home5.png)
+![Home Page](./WebOutputs/Home6.png)
 ---
 ### About Page
-![Home Page](./img/about.png)
+![About Page](./WebOutputs/About1.png)
+![About Page](./WebOutputs/About2.png)
+---
+### Products Page
+![Product Page](./WebOutputs/Product1.png)
+![Product Page](./WebOutputs/Product2.png)
 ---
 ### Contact Page
-![Home Page](./img/contact.png)
+![Contact Page](./WebOutputs/Contact.png)
 ---
-### Services Page
-![Home Page](./img/services.png)
----
+
 
 
 ## How to Contribute 🪴💻
@@ -46,4 +50,8 @@ We welcome contributions from the community to help us expand and improve this h
 
 ---
 ## Contributors
+<a href="https://github.com/bushra3112004/cosmetic-product-app-grp1-icp7/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=bushra3112004/cosmetic-product-app-grp1-icp7" />
+</a>
 
+Made with [contrib.rocks](https://contrib.rocks).

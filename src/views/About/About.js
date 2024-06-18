@@ -95,7 +95,7 @@ function About() {
                     </div>
                     <div className="btn-div">
                     <Toaster />
-                    <Link to="/about" onClick={() => toast('Welcome to About Page')} >
+                    <Link to="/about" onClick={() => toast('✅Welcome to About Page')} >
                         <ButtonBox
                             text="View More"
                         />
