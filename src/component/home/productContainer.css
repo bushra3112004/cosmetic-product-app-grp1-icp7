@@ -3,16 +3,17 @@
   margin: 25px 10px;
   text-align: center;
   position: relative;
-  width: 300px;
-  border: 1px solid black;
-  
+  width: 320px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
 }
 .prod-card{
   margin:10px 10px;
   justify-content:space-around;
 }
-.prod-card:hover{
+.product-card:hover{
   box-shadow: inset 3px 3px 5px 1px #a3a3a3;
+  transition: 2s;
 }
 
 .product-info {
