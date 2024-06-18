@@ -13,7 +13,7 @@ function Signup() {
     <Navbar/>
         <div className="sign-in-container">
 
-            <img src={signupimage} className="sign-in-tiger-img" />
+            <img src={signupimage} className="signup-img" />
 
             <div className="sign-in-form-container">
 
