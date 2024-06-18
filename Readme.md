@@ -4,8 +4,8 @@
 # Project-Title:  COSMETIC PRODUCT APP 
 
 ---
-Welcome to COSMETIC PRODUCT APP Project . ** 
-COSMETIC PRODUCT APP** ,where you will get to know the every product detailed information.
+Welcome to COSMETIC PRODUCT APP Project . 
+**COSMETIC PRODUCT APP** ,where you will get to know the every product detailed information.
 Popularized through customer relationships with some of the world’s most recognizable faces.
 
 This Project is simply made by using ReactJS. Weather you are Beginner Student to coding or Web Development this repository will be your go to resource for HTML, CSS and ReactJS.
@@ -19,21 +19,25 @@ This Project is simply made by using ReactJS. Weather you are Beginner Student t
 5. Comprehensive Skincare
 ---
 ### Home Page
-![Home Page](./img/home1.png)
----
-![Home Page](./img/home2.png)
----
-![Home Page](./img/home3.png)
+![Home Page](./WebOutputs/Home1.png)
+![Home Page](./WebOutputs/Home2.png)
+![Home Page](./WebOutputs/Home3.png)
+![Home Page](./WebOutputs/Home4.png)
+![Home Page](./WebOutputs/Home5.png)
+![Home Page](./WebOutputs/Home6.png)
 ---
 ### About Page
-![Home Page](./img/about.png)
+![About Page](./WebOutputs/About1.png)
+![About Page](./WebOutputs/About2.png)
+---
+### Products Page
+![Product Page](./WebOutputs/Product1.png)
+![Product Page](./WebOutputs/Product2.png)
 ---
 ### Contact Page
-![Home Page](./img/contact.png)
+![Contact Page](./WebOutputs/Contact.png)
 ---
-### Services Page
-![Home Page](./img/services.png)
----
+
 
 
 ## How to Contribute 🪴💻
