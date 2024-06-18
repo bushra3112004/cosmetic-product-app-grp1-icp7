@@ -2,11 +2,15 @@ import React, { useEffect, useState } from 'react';
 import './Product.css';
 import banner from './banner.jpeg';
 import banner2 from './banner2.jpg';
+import banner3 from './OIP.jpeg'
+import banner4 from './banners.jpg'
+import banner5 from './ProductView/banner4.jpeg'
+
+import banner6 from './ProductView/banner5.jpeg'
 import Footer from './../../component/Footer/Footer';
 import Navbar from './../../component/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Toaster,toast } from "react-hot-toast"
-import ButtonBox from "./../../component/ButtonBox/ButtonBox";
 import ProductCards from '../../component/ProductCards/ProductCards';
 import Productdata from './../../component/ProductCards/Productdata/Data';
 
@@ -94,6 +98,10 @@ function Product() {
           <hr />
           </div>
           <img className='banner2 img-fluid' src={banner2} alt="Banner 2" />
+          <img className='banner2 img-fluid' src={banner3} alt="Banner 2" />
+          <img className='banner2 img-fluid' src={banner4} alt="Banner 2" />
+          <img className='banner33 img-fluid' src={banner5} alt="Banner 2" />
+          <img className='banner33 img-fluid' src={banner6} alt="Banner 2" />
         </div>
       </div>
       <Toaster/>
