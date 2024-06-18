@@ -10,9 +10,7 @@
     
 }
 .sign-in-container:hover{
-   box-shadow: 0 0 gray;
-   
-    
+   box-shadow: 0 0 gray;   
 }
 
 .sign-in-tiger-img{
@@ -30,6 +28,7 @@
     background-color:#fddbc4;
     border-radius: 20px;
     margin-left:-270px;
+    position: relative;
 
 
 }
@@ -60,6 +59,8 @@
     margin: 15px auto;
     padding: 30px;
     border-radius: 10px;
+   
+
 }
 
 
@@ -71,12 +72,19 @@
     margin:20px auto;
 }
 
-.sign-in-page-btn{
-    margin-left: 180px;
+.signup-btn{
+   position: absolute;
+   left: 160px;
+   bottom: 10px;
    align-items: center;
    background-color: rgb(112, 227, 112);
    padding: 7px 25px;
    border-radius: 10px;
    border: 2px solid rgb(15, 72, 15);
+   font-weight: bold;
 
 }
+.signup-btn:hover{
+    box-shadow: 0 0 10px gray;
+  
+ }

@@ -3,10 +3,12 @@ import gmail from "./signup-icon/gmail.png"
 import facebook from "./signup-icon/facebook.png"
 import twitter from "./signup-icon/twitter.png"
 import signupimage from "./signup-icon/banner3-img.png"
+import toast, { Toaster } from 'react-hot-toast'
 
 function Signup() {
     return (
     <>
+    
 
         <div className="sign-in-container">
 
@@ -37,12 +39,19 @@ function Signup() {
                 </div>
 
                 <div>
-                    <button className="sign-in-page-btn">Sign up</button>
+                    <button type="submit" className="signup-btn"
+                     onClick={
+                        () => {
+      
+                          toast.success("You are  Successfully sign up!")
+                        }
+                      }>Sign up</button>
                 </div>
             </div>
         </div>
-
+        <Toaster/> 
     </>
+   
 
     )
 }
